@@ -3,14 +3,18 @@ header .container {
     flex-direction: row;
     align-items: center;    
     justify-content: space-between;
-    padding: 10px 0;
-    background: #867a7a;
+    padding: 10px;
+    margin: 0;
+    /* background: #202024; */
     height: 70px;
 }
 
 img .logo-page {
     max-height: 15px;
     margin-left: 10px;
+    width: 435px;
+    height: 191px;
+    overflow: hidden;
 }
 
 header nav a {
@@ -24,10 +28,13 @@ header nav a:hover {
     color: #aaaaaa;
 }
 
-@media(max-width:800px) {
+@media(max-width: 600px) {
     header .container {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 90px;
     }
 }
