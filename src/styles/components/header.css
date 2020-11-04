@@ -19,7 +19,7 @@ img .logo-page {
 
 header nav a {
     text-decoration: none;
-    margin-right: 30px;
+    margin: 30px;
     color: #ffffff;
     font-size: 16px;
 }
@@ -28,7 +28,7 @@ header nav a:hover {
     color: #aaaaaa;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     header .container {
         display: flex;
         flex-direction: column;

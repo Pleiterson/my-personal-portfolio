@@ -12,7 +12,7 @@
 
 
 <!--Banner session-->
-<img src="./src/assets/images/banner-happy.png" alt="Happy Banner" title="Happy">
+<!-- <img src="./src/assets/images/banner-happy.png" alt="Happy Banner" title="Happy"> -->
 
 
 <!--About session-->
@@ -22,9 +22,9 @@ Projeto pessoal para deixar organizar todas as minhas informações pessoais e p
 
 Poderá visualizar todo o meu currículo e portfólio.
 
-Acesse [aqui]() meu portfólio.<br>
+Acesse [aqui](https://pleiterson.vercel.app/) meu portfólio.<br>
 
-<img src="./src/assets/images/projeto.gif" alt="Meu Portfólio" title="Meu Portfólio"><br><br>
+<!-- <img src="./src/assets/images/projeto.gif" alt="Meu Portfólio" title="Meu Portfólio"><br><br> -->
 
 <h3>🔍 Dados e Arquivos utilizados</h3>
 
@@ -37,7 +37,7 @@ Acesse [aqui]() meu portfólio.<br>
 
 <h3>👨‍💻 Tecnologias utilizadas</h3>
 
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [TypeScript](https://www.typescriptlang.org/docs)
 - [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Node.JS](https://nodejs.org)
