@@ -35,6 +35,7 @@ Acesse [aqui](https://pleiterson.vercel.app/) meu portfólio.<br>
   - [Archivo](https://fonts.google.com/specimen/Archivo?query=Archivo)
   - [Nunito](https://fonts.google.com/specimen/Nunito?query=Nunito)<br><br>
 
+
 <h3>👨‍💻 Tecnologias utilizadas</h3>
 
 - [TypeScript](https://www.typescriptlang.org/docs)
@@ -44,13 +45,15 @@ Acesse [aqui](https://pleiterson.vercel.app/) meu portfólio.<br>
 - [Yarn](https://github.com/yarnpkg/berry)
 - [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
   - [create-react-app](https://create-react-app.dev/docs/getting-started/)
-  - [react-icons](https://react-icons.github.io/react-icons/)
-  - [react-router-dom](https://reactrouter.com/web/guides/quick-start)<br><br>
+  - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
+  <!-- - [react-icons](https://react-icons.github.io/react-icons/) --><br><br>
+
 
 <!--License session-->
 <h3>📝 Licença</h3>
 
 Este projeto está sob a licença [MIT](./LICENSE).<br><br>
+
 
 <!--Contribution-->
 <h3>✨Contribuição</h3>
@@ -69,6 +72,7 @@ git push origin feature/feature
 ```
 4. Abra um Pull Request
 5. Deixe o Follow e a Star!<br><br>
+
 
 <!--Bottom session-->
 <h4 align="center">Made with by <a href="https://www.linkedin.com/in/pleiterson/">Pleiterson Amorim</a></h4>
