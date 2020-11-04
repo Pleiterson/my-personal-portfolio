@@ -24,7 +24,7 @@ Poderá visualizar todo o meu currículo e portfólio.
 
 Acesse [aqui](https://pleiterson.vercel.app/) meu portfólio.<br>
 
-<!-- <img src="./src/assets/images/projeto.gif" alt="Meu Portfólio" title="Meu Portfólio"><br><br> -->
+<img src="./src/assets/images/projeto.gif" alt="Meu Portfólio" title="Meu Portfólio"><br><br>
 
 <h3>🔍 Dados e Arquivos utilizados</h3>
 
@@ -46,7 +46,7 @@ Acesse [aqui](https://pleiterson.vercel.app/) meu portfólio.<br>
 - [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
   - [create-react-app](https://create-react-app.dev/docs/getting-started/)
   - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
-  <!-- - [react-icons](https://react-icons.github.io/react-icons/) --><br><br>
+  <!-- - [react-icons](https://react-icons.github.io/react-icons/) -->
 
 
 <!--License session-->
