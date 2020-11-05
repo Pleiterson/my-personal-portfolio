@@ -3,6 +3,7 @@ import '../styles/pages/home.css';
 import Header from '../components/header';
 import Certification from '../components/Certification';
 import Skills from '../components/Skills';
+import Footer from '../components/footer';
 
 export default function Home() {
     return (
@@ -10,7 +11,7 @@ export default function Home() {
             <Header />
 
             <div className="title">
-                <h1>- Sobre mim</h1>            
+                <h1>- Sobre mim</h1>
             </div>
 
             <main>
@@ -29,6 +30,10 @@ export default function Home() {
 
                 <Skills />
             </main>
+
+            <footer>
+                <Footer />
+            </footer>            
         </>        
     );
 }

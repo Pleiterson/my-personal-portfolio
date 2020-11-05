@@ -1,0 +1,76 @@
+footer {
+    margin: 0;
+    padding: 0;
+    height: 220px;
+    background: #202024;
+}
+
+.container-footer {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    padding: 10px;
+}
+
+.container-footer nav {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 160px;    
+}
+
+nav p {
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container-footer .back-top {
+    position: absolute;
+    right: 100px;
+    bottom: 150px;
+    width: 64px;
+    height: 64px;
+    background: #29292e;
+    color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s;
+}
+
+.container-footer .back-top:hover {
+    background: #aaaaaa;
+    color: #29292e;
+}
+
+.container-footer .contacts {
+    position: absolute;
+    right: 320px;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between    
+}
+
+.contacts .social {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.container-footer .register {
+    position: absolute;
+    right: 550px;
+    bottom: 5px;
+}

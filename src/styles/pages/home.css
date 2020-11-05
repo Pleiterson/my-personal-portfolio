@@ -26,6 +26,7 @@ div .container {
 .description {
     margin-left: 20px;
     font-size: 16px;
+    text-align: justify;
 }
 
 .description p {
