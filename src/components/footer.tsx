@@ -23,16 +23,16 @@ export default function Footer() {
                 </a>
 
                 <div className="contacts">
-                    <a href="https://www.instagram.com/pleiterson/">
+                    <a target="_blank" href="https://www.instagram.com/pleiterson/">
                         <img src={insta} alt="Instagram" title="Instagram" className="social"/>
                     </a>
-                    <a href="http://twitter.com/pleiterson">
+                    <a target="_blank" href="http://twitter.com/pleiterson">
                         <img src={twitter} alt="Twitter" title="Twitter" className="social"/>
                     </a>
-                    <a href="http://www.linkedin.com/in/pleiterson/">
+                    <a target="_blank" href="http://www.linkedin.com/in/pleiterson/">
                         <img src={linkedin} alt="LinkedIn" title="LinkedIn" className="social"/>
                     </a>
-                    <a href="http://github.com/Pleiterson">
+                    <a target="_blank" href="http://github.com/Pleiterson">
                         <img src={github} alt="GitHub" title="GitHub" className="social"/>
                     </a>
                 </div>

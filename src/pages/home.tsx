@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/pages/home.css';
 import Header from '../components/header';
-import Certification from '../components/Certification';
-import Skills from '../components/Skills';
+import Certification from '../components/Home/Certification';
+import Skills from '../components/Home/Skills';
 import Footer from '../components/footer';
 
 export default function Home() {

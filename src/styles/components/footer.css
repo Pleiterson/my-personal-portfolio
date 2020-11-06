@@ -60,8 +60,13 @@ nav a {
     bottom: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between    
+    justify-content: space-between;
+    
 }
+
+/* div .contacts {
+    background: #aaaaaa;
+} */
 
 .contacts .social {
     width: 40px;
@@ -72,5 +77,33 @@ nav a {
 .container-footer .register {
     position: absolute;
     right: 550px;
-    bottom: 5px;
+    bottom: 0;
+}
+
+@media(max-width: 700px) {
+    .container-footer nav {        
+        padding: 15px;        
+        margin-left: 10px;    
+    }
+
+    .container-footer .back-top {
+        right: 20px;
+        bottom: 120px;
+    }
+
+    .container-footer .contacts {
+        right: 50px;
+        bottom: 60px;
+    }
+
+    .contacts .social {
+        width: 30px;
+        height: 30px;
+        margin-right: 6px;
+    }
+
+    .container-footer .register {
+        right: 60px;
+        bottom: 0;
+    }
 }
