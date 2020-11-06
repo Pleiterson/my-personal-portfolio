@@ -1,4 +1,5 @@
 import React from 'react';
+import {BiCertification} from 'react-icons/bi';
 import '../../styles/components/Home/certification.css';
 import sfc from '../../assets/images/scrum-sfc.png';
 import sfpc from '../../assets/images/scrum-sfpc.png';
@@ -8,7 +9,7 @@ export default function Certification() {
     return (
         <main>
             <div className="title">
-                    <h1>- Certificações</h1>            
+                    <h1>- Certificações <BiCertification size={25} /></h1>            
                 </div>
 
                 <div className="certifications">

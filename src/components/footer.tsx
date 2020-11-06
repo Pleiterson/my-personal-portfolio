@@ -36,7 +36,7 @@ export default function Footer() {
                         <img src={github} alt="GitHub" title="GitHub" className="social"/>
                     </a>
                 </div>
-                <p className="register">© Pleiterson Amorim</p>
+                <p className="register">© Pleiterson Amorim 2021</p>
             </div>
         </footer>
     );

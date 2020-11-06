@@ -1,4 +1,5 @@
 import React from 'react';
+import {FcAbout} from 'react-icons/fc';
 import '../styles/pages/home.css';
 import Header from '../components/header';
 import Certification from '../components/Home/Certification';
@@ -11,7 +12,7 @@ export default function Home() {
             <Header />
 
             <div className="title">
-                <h1>- Sobre mim</h1>
+                <h1>- Sobre mim <FcAbout size={25} /></h1>
             </div>
 
             <main>
