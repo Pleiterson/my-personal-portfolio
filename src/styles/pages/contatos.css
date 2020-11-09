@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+header {
+    padding: 10px;
+    margin: 0;
+    height: 70px;
+    background: #282a36;
+}
+
+header .back {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;    
+}
+
+.titulo, .contatos {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #202024;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+    height: auto;
+    background: #202024;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 14px 'Nunito', sans-serif;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.rede {
+    width: 70px;
+    height: 70px;
+}
+
+.qrcode {
+    width: 200px;
+    height: 200px;
+}
+
+.item p {    
+    margin-top: 5px;
+    font: 1.2rem 'Archivo', sans-serif;
+}
+
+/* .nuvem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+} */
+
+@media(max-width: 700px) {
+    header .back {
+        justify-content: center;
+    }
+
+    .titulo {
+        text-align: center;
+        font: 12px 'Nunito', sans-serif;
+    }
+}
