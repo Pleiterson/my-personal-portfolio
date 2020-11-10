@@ -80,7 +80,7 @@ export default function Skills() {
                     <img src={postgresql} alt="PostgreSQL" title="PostgreSQL" className="skills"/>
                     <img src={python} alt="Python" title="Python" className="skills"/>
                     <img src={redux} alt="Redux" title="Redux" className="skills"/>
-                    <img src={vuejs} alt="VUE.JS" title="VUE.JS" className="skills"/>
+                    <img src={vuejs} alt="Vue.JS" title="Vue.JS" className="skills"/>
                     <img src={reactjs} alt="React Native" title="React Native" className="skills"/>
                     <img src={bootstrap} alt="Bootstrap" title="Bootstrap" className="skills"/>
                     <img src={dnet} alt=".NET" title=".NET" className="skills"/>

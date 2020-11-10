@@ -8,7 +8,7 @@ import lll from '../../assets/images/scrum-lll.png';
 export default function Certification() {
     return (
         <main>
-            <div className="title">
+            <div className="title-certi">
                     <h1>- Certificações <BiCertification size={25} /></h1>            
                 </div>
 
