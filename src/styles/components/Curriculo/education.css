@@ -1,0 +1,9 @@
+.education {
+    margin-top: 20px;
+}
+
+.education p {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: #dddcdc solid 1px;
+}

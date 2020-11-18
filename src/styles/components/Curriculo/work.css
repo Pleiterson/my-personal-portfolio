@@ -1,0 +1,19 @@
+.work {
+    margin-top: 10px;
+    border-bottom: #dddcdc solid 1px;
+    padding-bottom: 10px;
+}
+
+/* .work p {
+    text-align: justify;
+} */
+
+.time-work {
+    margin-bottom: 5px;
+}
+
+.time-work span {
+    display: flex;
+    flex-direction: row;
+    color: #aaaaaa;
+}

@@ -55,8 +55,8 @@
     height: 300px;
 }
 
-.profile, .contact, .languages, .education,
-.personal-skills, .extracurricular {
+.profile, .contact, .languages,
+.personal-skills, .extracurricular, .certificacoes {
     margin-top: 20px;
 }
 
@@ -65,24 +65,26 @@
     text-align: justify;
 }
 
-.work {
-    margin-top: 10px;
-}
-
-/* .work p {
-    text-align: justify;
-} */
-
-.time-work {
-    margin-bottom: 5px;
-}
-
-.time-work span {
+.level-language {
     display: flex;
     flex-direction: row;
-    color: #aaaaaa;
+    text-align: center;
+    /* justify-content: space-between; */
+    /* margin: 10px; */
 }
 
-.education p {
-    margin-bottom: 10px;    
+.level-language img {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.basico, .intermediario, .nativo-fluente {
+    /* background-color: #dddcdc; */
+    padding: 5px;
+    width: 140px;
+    height: auto;
+    border: #ffffff solid 1px;
+    border-radius: 13px;
+    margin-right: 10px; /* quando tiver o nível intermediário, retirar este margin */
 }

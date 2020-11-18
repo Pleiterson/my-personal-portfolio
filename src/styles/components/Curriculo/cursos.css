@@ -1,0 +1,30 @@
+.licensed {
+    /* background-color: #dddcdc; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-bottom: #dddcdc solid 1px;
+}
+
+.licensed img {
+    margin: 5px;
+    width: 64px;
+    height: 60px;
+}
+
+.description-licensed {
+    margin-left: 15px;
+}
+
+.description-licensed span {
+    display: flex;
+    flex-direction: row;
+}
+
+.description-licensed a {
+    display: flex;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}

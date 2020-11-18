@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/pages/contatos.css';
 import Footer from '../components/footer';
+import Header from '../components/header';
 import imgLogo from '../assets/images/logo.png';
 import nuvem from '../assets/images/nuvemplei.png';
 import linkedin from '../assets/images/linkedin.svg';
@@ -23,13 +24,14 @@ import qrcodeyoutube from '../assets/qrcodes/qr_code-youtube.png';
 export default function Contatos() {
     return (
         <>
-            <header>
+            <Header />
+            {/* <header>
                 <div className="back">
                     <a href="/">
                         <img src={imgLogo} alt="Voltar"/>
                     </a>
                 </div>
-            </header>
+            </header> */}
 
             <div className="titulo">
                 <h1>Visite e entre em contato em uma das redes sociais abaixo</h1>        

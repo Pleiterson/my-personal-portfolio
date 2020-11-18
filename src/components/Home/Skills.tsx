@@ -17,7 +17,7 @@ import ts from '../../assets/images/typescript.svg';
 import angular from '../../assets/images/angularjs.svg';
 import flutter from '../../assets/images/flutter.png';
 import kubernetes from '../../assets/images/kubernetes.png';
-import lavarel from '../../assets/images/laravel.svg';
+import lavarel from '../../assets/images/lavarel.svg';
 import mongo from '../../assets/images/mongodb.svg';
 import mysql from '../../assets/images/mysql.svg';
 import postgresql from '../../assets/images/postgresql.svg';

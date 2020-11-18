@@ -46,7 +46,7 @@ Acesse [aqui](https://pleiterson.vercel.app/) meu portfólio.<br>
 - [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
   - [create-react-app](https://create-react-app.dev/docs/getting-started/)
   - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
-  <!-- - [react-icons](https://react-icons.github.io/react-icons/) -->
+  - [react-icons](https://react-icons.github.io/react-icons/)
 
 
 <!--License session-->
@@ -75,7 +75,7 @@ git push origin feature/feature
 
 
 <!--Bottom session-->
-<h4 align="center">Made with by <a href="https://www.linkedin.com/in/pleiterson/">Pleiterson Amorim</a></h4>
+<br><h4 align="center">Made with by <a href="https://pleiterson.vercel.app/">Pleiterson Amorim</a></h4>
 
 
 <!-- # Getting Started with Create React App

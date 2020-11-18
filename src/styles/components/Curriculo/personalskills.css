@@ -1,0 +1,32 @@
+.personal-skills {
+    margin-top: 20px;
+}
+
+.level {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+
+.basic, .basic-intermediate,
+.intermediate, .advanced {
+    /* background-color: #dddcdc; */
+    padding: 5px;
+    width: 170px;
+    height: auto;
+    border: black solid 1px;
+    border-radius: 13px;
+}
+
+/* .basic, .basic-intermediate,
+.intermediate, .advanced h4 {
+    font: italic;
+} */
+
+.level img {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
