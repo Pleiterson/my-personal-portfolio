@@ -25,7 +25,7 @@ Poderá visualizar todo o meu currículo e portfólio.
 Acesse [aqui](https://pleiterson.vercel.app/) meu portfólio.<br>
 
 <p align="center"><img src="./src/assets/projeto.gif" alt="Meu Portfólio" title="Meu Portfólio"></p>
-<p align="center"><img src="./src/assets/projeto-responsivo.gif" alt="Meu Portfólio" title="Meu Portfólio"></p><br><br>
+<p align="center"><img src="./src/assets/projeto-responsivo.gif" alt="Meu Portfólio" title="Meu Portfólio Responsivo"></p><br><br>
 
 <h3>🔍 Dados e Arquivos utilizados</h3>
 
