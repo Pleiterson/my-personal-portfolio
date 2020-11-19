@@ -1,7 +1,11 @@
-.work {
+.work, .work-last {
     margin-top: 10px;
     border-bottom: #dddcdc solid 1px;
     padding-bottom: 10px;
+}
+
+.work-last {
+    border-bottom: none;
 }
 
 /* .work p {

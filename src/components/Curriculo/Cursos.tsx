@@ -9,11 +9,225 @@ import tiexames from '../../assets/badges/tiexames.png';
 import bizagi from '../../assets/badges/bizagi.png';
 import conquer from '../../assets/badges/conquer.jpg';
 import alura from '../../assets/badges/alura.png';
+import dio from '../../assets/badges/dio.png';
+import out from '../../assets/badges/rafaoutsystems.jpg';
+import inova from '../../assets/badges/inova.png';
+import aec from '../../assets/badges/aec.jpg';
 
 export default function Cursos() {
     return(
         <div className="extracurricular">
             <h2>Cursos e Conhecimentos Adicionais</h2>
+            <div className="licensed">
+                <img src={inova} alt="Inova Business School"/>
+                <div className="description-licensed">
+                    <h4>Full Agile</h4>
+                    <span><b>Inova Business School</b></span>
+                    <span>Emitido em out. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial </span>
+                    <a href="https://i.imgur.com/UiqUcsy.jpg" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Especialista em Inovação Digital</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em set. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 4EEBF4C3</span>
+                    <a href="https://certificates.digitalinnovation.one/4EEBF4C3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={out} alt="RafaOutSystems"/>
+                <div className="description-licensed">
+                    <h4>Semana do Programador 7x OutSystems</h4>
+                    <span><b>RafaOutSystems</b></span>
+                    <span>Emitido em set. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial </span>
+                    <a href="https://i.imgur.com/Uy0u2VM.jpg" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Jornada de Formação Inicial de Consultores em Privacidade de Dados</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em ago. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 70305</span>
+                    <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=NVRCMlBRVENJNFpIQ081UTRoUU51dz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Transição de Carreira, Elaboração de Propostas e Desenho de Processos com BPMN - Aula V: Jornada de Consultores LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em ago. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 64700</span>
+                    <a href="https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=dEt3MXpjQm5xbWUwZHZYbUE0UjJwUT09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Mapeamento de Processos - Aula IV: Jornada de Consultores LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em ago. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 63880</span>
+                    <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=eUVqN2VoTFZkUk05UnZ3SGV1Rzl2QT09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Estratégias de Consultoria e Mapeamento de Processos - Aula IV: Jornada de Consultores LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em ago. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 61134</span>
+                    <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=djBmM2NlQTVZV2VtVVl0aWpnOHN2dz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Desenvolvedor Front-end React.JS</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 54B7799C</span>
+                    <a href="https://certificates.digitalinnovation.one/54B7799C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Desenvolvedor Front-end Angular</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial F3CCF27C</span>
+                    <a href="https://certificates.digitalinnovation.one/F3CCF27C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Desenvolvedor Full-stack Python</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial A90DBBF2</span>
+                    <a href="https://certificates.digitalinnovation.one/A90DBBF2" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Desenvolvedor Back-end PHP</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 94447DF3</span>
+                    <a href="https://certificates.digitalinnovation.one/94447DF3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Full-stack Developer Banco Carrefour</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial B96662DD</span>
+                    <a href="https://certificates.digitalinnovation.one/B96662DD" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Back-end Developer Carrefour</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial B635F02F</span>
+                    <a href="https://certificates.digitalinnovation.one/B635F02F" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Global Full-stack Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial E7A61E1A</span>
+                    <a href="https://certificates.digitalinnovation.one/E7A61E1A" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Mapeamento de Processos para adequação à LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 61138</span>
+                    <a href="https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=aTZBYzBTSzNwQlR3NW1pS3h4Nk9JUT09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Modelos de adequação à LGPD - Aula III: Jornada de Consultores LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 58327</span>
+                    <a href="https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=bEVrZ0V5b3pYb2ZpY293TVh4enNwdz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>A arte de vender: de vendedor a mestre em persuasão - Aula II: Jornada de Consultores LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 55684</span>
+                    <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=dSt1ejNFNDcxQ1hCdHNNQjZQR21Ydz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Primeiros passos para você iniciar a sua atuação como Consultor em Privacidade de Dados (LGPD) -  Aula I: Jornada de Consultores LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 52774</span>
+                    <a href="https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=Q0VkcXUyWk92dFNIeC92VmkwZEhQZz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Become Remote</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jun. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial D9C99ED9</span>
+                    <a href="https://certificates.digitalinnovation.one/D9C99ED9" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Como Conduzir um Projeto de Consultoria de Adequação à LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em jun. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 38821</span>
+                    <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=VkVlaEkvWFVXNEVlQk9FMEhkaEd4Zz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={tiexames} alt="TIexames"/>
+                <div className="description-licensed">
+                    <h4>Ferramentas e Soluções para LGPD</h4>
+                    <span><b>TIexames</b></span>
+                    <span>Emitido em jun. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 39488</span>
+                    <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=b2FnMURBNmlyQU9WK3dEenBRSzQvdz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
             <div className="licensed">
                 <img src={alura} alt="Alura Cursos Online"/>
                 <div className="description-licensed">
@@ -132,6 +346,16 @@ export default function Cursos() {
                     <span>Emitido em ago. 2019 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial 489101AFF73F9B73519950</span>
                     <a href="https://e-certificado.com/login/autenticar?c=489101AFF73F9B73519950" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed-last">
+                <img src={aec} alt="AeC Centro de Contatos"/>
+                <div className="description-licensed">
+                    <h4>Treinamento PDCA</h4>
+                    <span><b>AeC Centro de Contatos</b></span>
+                    <span>Emitido em fev. 2017 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial </span>
+                    <a href="https://i.imgur.com/kiE6Qk5.jpg" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
         </div>

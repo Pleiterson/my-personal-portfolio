@@ -22,6 +22,15 @@
     padding: 15px;
 }
 
+.photo-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
 .curriculum h2 {
     font: 25px 'Staatliches';
 }
@@ -35,6 +44,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
     /* margin-bottom: 20px; */
 }
 
@@ -44,15 +54,6 @@
 
 .presentation h3 {
     font: italic 22px 'Poiret One';
-}
-
-.photo-profile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
 }
 
 .profile, .contact, .languages,
@@ -87,4 +88,58 @@
     border: #ffffff solid 1px;
     border-radius: 13px;
     margin-right: 10px; /* quando tiver o nível intermediário, retirar este margin */
+}
+
+.licenca, .licenca-last {
+    /* background-color: #dddcdc; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-bottom: #ffffff solid 1px;
+}
+
+.licenca-last {
+    border-bottom: none;
+}
+
+.licenca img, .licenca-last img {
+    margin: 5px;
+    width: 64px;
+    height: 64px;
+}
+
+.descricao-licenca {
+    margin-left: 15px;
+}
+
+.descricao-licenca span {
+    display: flex;
+    flex-direction: row;
+}
+
+.descricao-licenca a {
+    display: flex;
+    margin-top: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media(max-width: 700px) {
+    .curriculum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff;
+        color: #202024;
+    }
+    
+    .container-one {
+        width: 100vw;
+    }
+
+    .photo-profile {
+        width: 250px;
+        height: 250px;
+    }
 }

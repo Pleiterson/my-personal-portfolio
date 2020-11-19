@@ -5,6 +5,7 @@ import {GoLocation} from 'react-icons/go';
 import {GiRelationshipBounds} from 'react-icons/gi';
 import '../styles/pages/curriculo.css';
 import Header from '../components/header';
+import Footer from '../components/footer';
 import Work from '../components/Curriculo/Work';
 import Education from '../components/Curriculo/Education';
 import PersonalSkills from '../components/Curriculo/PersonalSkills';
@@ -12,6 +13,8 @@ import Cursos from '../components/Curriculo/Cursos';
 import profile from '../assets/profile.png';
 import brasil from '../assets/images/brasil.png';
 import usa from '../assets/images/usa.png';
+import study from '../assets/badges/scrumstudy.png';
+import certiprof from '../assets/badges/certiprof.jpg';
 
 export default function Curriculo() {
     return (
@@ -59,13 +62,33 @@ export default function Curriculo() {
                     <div className="certificacoes">
                         <h2>Certificações</h2>
                         <div className="licenca">
-                            <img src="" alt=""/>
+                            <img src={certiprof} alt="CertiProf"/>
                             <div className="descricao-licenca">
-                                <h4></h4>
-                                <span><b></b></span>
-                                <span></span>
-                                <span></span>
-                                <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+                                <h4>CertiProf Continuous Learner</h4>
+                                <span><b>CertiProf</b></span>
+                                <span>Emitido em ago. 2020 ∙ Expira em ago. 2022</span>
+                                <span>Nº da credencial </span>
+                                <a href="https://www.youracclaim.com/badges/6ba05a04-10f6-4eb0-aeaf-31496067a14a?source=linked_in_profile" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            </div>
+                        </div>
+                        <div className="licenca">
+                            <img src={certiprof} alt="CertiProf"/>
+                            <div className="descricao-licenca">
+                                <h4>Scrum Foundation Professional Certificate (SFPC)</h4>
+                                <span><b>CertiProf</b></span>
+                                <span>Emitido em jun. 2020 ∙ Nenhuma data de expiração</span>
+                                <span>Nº da credencial 91591408918998</span>
+                                <a href="https://www.youracclaim.com/badges/750429a6-9f36-4ebf-9c35-5e7cf909ca68/linked_in" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            </div>
+                        </div>
+                        <div className="licenca-last">
+                            <img src={study} alt="ScrumStudy"/>
+                            <div className="descricao-licenca">
+                                <h4>Scrum Fundamentals Certified (SFC)</h4>
+                                <span><b>ScrumStudy</b></span>
+                                <span>Emitido em mai. 2020 ∙ Nenhuma data de expiração</span>
+                                <span>Nº da credencial 779075</span>
+                                <a href="https://c46e136a583f7e334124-ac22991740ab4ff17e21daf2ed577041.ssl.cf1.rackcdn.com/Certificate/ScrumFundamentalsCertified-PleitersonAmorim-779075.pdf" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                             </div>
                         </div>
                     </div>
@@ -78,6 +101,8 @@ export default function Curriculo() {
                     <Cursos />
                 </div>
             </main>
+
+            <Footer />
         </>
     );
 }

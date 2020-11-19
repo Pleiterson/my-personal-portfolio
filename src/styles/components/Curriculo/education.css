@@ -2,8 +2,12 @@
     margin-top: 20px;
 }
 
-.education p {
+.local-education, .local-last {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: #dddcdc solid 1px;
+}
+
+.local-last {
+    border-bottom: none;
 }

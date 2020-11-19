@@ -1,4 +1,4 @@
-.licensed {
+.licensed, .licensed-last {
     /* background-color: #dddcdc; */
     display: flex;
     flex-direction: row;
@@ -7,10 +7,14 @@
     border-bottom: #dddcdc solid 1px;
 }
 
-.licensed img {
+.licensed img, .licensed-last img {
     margin: 5px;
     width: 64px;
-    height: 60px;
+    height: 64px;
+}
+
+.licensed-last {
+    border-bottom: none;
 }
 
 .description-licensed {

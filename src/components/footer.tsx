@@ -12,10 +12,10 @@ export default function Footer() {
             <div className="container-footer">
                 <nav className="links">
                     <p>Navegação</p>
+                    <a href="/sobre">Sobre</a>
                     <a href="/curriculo">Curriculo</a>
                     <a href="/contatos">Contatos</a>
                     <a href="/projetos">Projetos</a>
-                    <a href="/sobre">Sobre</a>
                 </nav>
 
                 <a href="#" className="back-top">

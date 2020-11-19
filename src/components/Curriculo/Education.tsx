@@ -7,10 +7,14 @@ export default function Education() {
             <h2>Formação</h2>
                 {/* <h4></h4>
                 <p></p> */}
-                <h4>Bacharelado em Sistemas de Informação | 2007- o momento</h4>
-                <p>Pontifícia Universidade Católica de Minas Gerais - PUC Minas</p>
-                <h4>Técnico em Informática Gerencial | 2001-2005</h4>
-                <p>Escola Politécnica de Minas Gerais - POLIMIG</p>
+                <div className="local-education">
+                    <h4>Bacharelado em Sistemas de Informação | 2007- o momento</h4>
+                    <p>Pontifícia Universidade Católica de Minas Gerais - PUC Minas</p>
+                </div>
+                <div className="local-last">
+                    <h4>Técnico em Informática Gerencial | 2001-2005</h4>
+                    <p className="last">Escola Politécnica de Minas Gerais - POLIMIG</p>
+                </div>
         </div>
     );
 }

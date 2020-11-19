@@ -47,7 +47,7 @@ export default function Work() {
                 <p>- Controlar e gerenciar acessos (Logins e Senhas) para com os Sistemas internos e externos (empresa/cliente);</p>
                 <p>- Controle e confecção de Base SFTP de logins ativos/inativos (faturamento).</p>
             </div>
-            <div className="work">
+            <div className="work-last">
                 <h4>AUXILIAR ADMINISTRATIVO | <i>Produção e Qualidade</i></h4>
                 <b>Colortextil Participações LTDA.</b>
                 <div className="time-work">
