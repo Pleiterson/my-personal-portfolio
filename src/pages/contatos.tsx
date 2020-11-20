@@ -2,8 +2,7 @@ import React from 'react';
 import '../styles/pages/contatos.css';
 import Footer from '../components/footer';
 import Header from '../components/header';
-import imgLogo from '../assets/images/logo.png';
-import nuvem from '../assets/images/nuvemplei.png';
+// import imgLogo from '../assets/images/logo.png';
 import linkedin from '../assets/images/linkedin.svg';
 import github from '../assets/images/github2.svg';
 import sourcerer from '../assets/images/sourcerer.png';
@@ -101,11 +100,7 @@ export default function Contatos() {
                     <img src={} alt="QR Code " title="QR Code " className="qrcode"/>
                     <p>LinkedIn</p>
                 </div> */}                
-            </section>            
-            
-            {/* <div className="nuvem">
-                <img src={nuvem} alt="Nuvem de palavras" title="Nuvem de palavras"/>
-            </div> */}
+            </section>
 
             <footer>
                 <Footer />
