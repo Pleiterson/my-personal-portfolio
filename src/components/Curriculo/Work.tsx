@@ -8,12 +8,15 @@ export default function Work() {
             <h3>AeC Centro de Contatos</h3>
             <p>12 anos 3 meses</p>
             {/* <div className="work">
-                <h4> | <i></i></h4>
+                <h4>ANALISTA ADMINISTRATIVO PLENO | <i>Segurança Corporativa</i></h4>
                 <div className="time-work">
-                    <span> | </span>
-                    <span></span>
+                    <span>fev. 2017 até o momento | 3 anos 10 meses</span>
+                    <span>Belo Horizonte e Região, Brasil</span>
                 </div>
-                <p></p>                            
+                <p>- Elaboração e Mapeamento de Processos de Negócio do setor de Segurança Corporativa;</p>
+                <p>- Promover melhoria e automação nos Processos de Negócio;</p>
+                <p>- Elaboração de apresentação de resultados do setor de Antifraude para gerência e diretoria;</p>
+                <p>- Realizar análises de Fraudes e Auditoria Interna (sistêmicas e documentais).</p>
             </div> */}
             <div className="work">
                 <h4>ANALISTA ADMINISTRATIVO PLENO | <i>Segurança Corporativa</i></h4>

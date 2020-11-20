@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+.title-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 14px 'Nunito', sans-serif;
+    padding: 20px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #202024;
+    margin: 20px;
+    padding: 10px;
+    width: 620px;
+    border-radius: 13px;
+}
+
+.instructions img {
+    width: 18px;
+    height: 18px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: #ffffff;
+    color: #202024;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width:360px ;
+    height: 420px;
+}
+
+.sub-title, .image,
+.description-project {
+    margin-bottom: 15px;
+}
+
+.image img {
+    width: 200px;
+    height: 75px;
+}
+
+.pos {
+    text-align: justify;
+}
+
+.view-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.view-project img {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.languages-project {
+    margin: 0;
+    right: 10px;
+}
+
+@media(max-width: 700px) {
+    .title-project {
+        text-align: center;
+    }
+
+    .instructions {
+        margin: 20px;
+        padding: 10px;
+        width: auto;
+    }
+}

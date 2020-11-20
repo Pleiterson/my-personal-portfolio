@@ -18,6 +18,26 @@ export default function Cursos() {
     return(
         <div className="extracurricular">
             <h2>Cursos e Conhecimentos Adicionais</h2>
+            {/* <div className="licensed">
+                <img src={} alt=""/>
+                <div className="description-licensed">
+                    <h4></h4>
+                    <span><b></b></span>
+                    <span>Emitido em nov. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial </span>
+                    <a href="" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div> */}
+            <div className="licensed">
+                <img src={conquer} alt="Escola Conquer"/>
+                <div className="description-licensed">
+                    <h4>Inteligência Emocional</h4>
+                    <span><b>Escola Conquer</b></span>
+                    <span>Emitido em nov. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial </span>
+                    <a href="https://drive.conqueronline.com.br/Certificados/Intelig%C3%AAncia%20Emocional%20Conquer/1605903889539-3462fb03-5285-4fb4-a817-283b9211e6a9.pdf" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
             <div className="licensed">
                 <img src={inova} alt="Inova Business School"/>
                 <div className="description-licensed">
