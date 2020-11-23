@@ -11,6 +11,7 @@ import instagram from '../assets/images/instagram.png';
 import twitter from '../assets/images/twitter.svg';
 import facebook from '../assets/images/facebook.svg';
 import youtube from '../assets/images/youtube.png';
+import pinterest from '../assets/images/pinterest.png';
 import qrcodelinkedin from '../assets/qrcodes/qr_code-linkedin.png';
 import qrcodegithub from '../assets/qrcodes/qr_code-github.png';
 import qrcodesourcerer from '../assets/qrcodes/qr_code-sourcerer.png';
@@ -19,6 +20,7 @@ import qrcodeinstagram from '../assets/qrcodes/qr_code-instagram.png';
 import qrcodetwitter from '../assets/qrcodes/qr_code-twitter.png';
 import qrcodefacebook from '../assets/qrcodes/qr_code-facebook.png';
 import qrcodeyoutube from '../assets/qrcodes/qr_code-youtube.png';
+import qrcodepinterest from '../assets/qrcodes/qr_code-pinterest.png';
 
 export default function Contatos() {
     return (
@@ -92,6 +94,13 @@ export default function Contatos() {
                     </a>
                     <img src={qrcodeyoutube} alt="QR Code YouTube" title="QR Code YouTube" className="qrcode"/>
                     <p>YouTube</p>
+                </div>
+                <div className="item">
+                    <a href="https://br.pinterest.com/pleiterson/" target="_blank" rel="noopener noreferrer">
+                        <img src={pinterest} alt="Pinterest" title="Pinterest" className="rede"/>
+                    </a>
+                    <img src={qrcodepinterest} alt="QR Code " title="QR Code " className="qrcode"/>
+                    <p>Pinterest</p>
                 </div>
                 {/* <div className="item">
                     <a href="" target="_blank" rel="noopener noreferrer">

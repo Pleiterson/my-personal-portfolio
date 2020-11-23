@@ -21,3 +21,18 @@
   /* ul {
     list-style: none;
   } */
+
+  .construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .construction a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 10px;
+  }
