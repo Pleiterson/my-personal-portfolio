@@ -10,12 +10,14 @@ import pleiflix from '../assets/projects/pleiflix.png';
 import proffy from '../assets/projects/proffy.png';
 import netflix from '../assets/projects/netflix.png';
 import portfolio from '../assets/projects/portfolio.png';
+import uivercel from '../assets/projects/vercel.png';
 import languagehipsta from '../assets/projects/languages-hipsta.png';
 import languagepleiflix from '../assets/projects/languages-pleiflix.png';
 import languageproffy from '../assets/projects/languages-proffy.png';
 import languageinsta from '../assets/projects/languages-insta.png';
 import languagenetflix from '../assets/projects/languages-netflix.png';
 import languageport from '../assets/projects/languages-portfolio.png';
+import languagevercel from '../assets/projects/languages-vercel.png';
 
 export default function Projetos() {
     return (
@@ -34,10 +36,35 @@ export default function Projetos() {
             <main className="projects">
                 <div className="project">
                     <div className="sub-title">
+                        <h3>UI Clone Vercel</h3>
+                    </div>
+                    <div className="image">
+                        <img src={uivercel} alt="Vercel" title="UI Clone Vercel"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Código criado do vídeo "Recriando homepage da Vercel" do YouTube da Rocketseat (UI Clone)</p>
+                    </div>
+                    <div className="pos">
+                        <p>UI focado na animação da página. Não contém header e footer, apenas a parte principal do site. Alguns botões são direcionados para as mesmas páginas que a original. Responsividade dada como desafio.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/ui-clone-vercel-rocketseat" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://uiclone-vercel.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <img src={languagevercel} alt="Linguagens"/>
+                    </div>
+                </div>
+                <div className="project">
+                    <div className="sub-title">
                         <h3>Meu Portfólio Pessoal</h3>
                     </div>
                     <div className="image">
-                        <img src={portfolio} alt="Bruxa Hipsta" title="Meu Portfólio Pessoal"/>
+                        <img src={portfolio} alt="Meu Portfólio Pessoal" title="Meu Portfólio Pessoal"/>
                     </div>
                     <div className="description-project">
                         <p>Projeto pessoal para organizar todas as minhas informações pessoais e profissionais como dev</p>

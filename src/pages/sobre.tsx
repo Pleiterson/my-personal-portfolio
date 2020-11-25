@@ -8,7 +8,8 @@ export default function Sobre() {
             <Header />
             <div className="construction">
                 <h1>Em construção...</h1>
-                Para visualizar meu currículo, acesse meu <a href="http://linkedin.com.br/in/pleiterson/">LinkedIn</a>
+                Para visualizar meu currículo, acesse meu
+                <a href="http://linkedin.com.br/in/pleiterson/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
         </>
     );
