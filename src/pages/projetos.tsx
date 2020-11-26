@@ -3,6 +3,7 @@ import '../styles/pages/projetos.css';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import github from '../assets/images/github2.svg';
+import gitlab from '../assets/images/gitlab.svg';
 import vercel from '../assets/images/vercel.png';
 import hipsta from '../assets/projects/bruxahipsta.png';
 import instagram from '../assets/projects/instagram.png';
@@ -30,6 +31,7 @@ export default function Projetos() {
 
             <div className="instructions">
                 <p><img src={github} alt="Repositório"/> Clique nestas imagens abaixo para visualizar o Repositório do Projeto no GitHub e o código.</p>
+                <p><img src={gitlab} alt="Repositório"/> Clique nestas imagens abaixo para visualizar o Repositório do Projeto no GitLab e o código.</p>
                 <p><img src={vercel} alt="Projeto"/> Clique nestas imagens abaixo para visualizar o Site do Projeto funcionando.</p>
             </div>
 
@@ -50,6 +52,9 @@ export default function Projetos() {
                     <div className="view-project">
                         <a href="https://github.com/Pleiterson/ui-clone-vercel-rocketseat" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/ui-clone-vercel-rocketseat" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
                         </a>
                         <a href="https://uiclone-vercel.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img src={vercel} alt="Projeto" title="Site do Projeto"/>
@@ -76,6 +81,9 @@ export default function Projetos() {
                         <a href="https://github.com/Pleiterson/my-personal-portfolio" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="Repositório" title="Repositório do Projeto"/>
                         </a>
+                        <a href="https://gitlab.com/pleiterson/my-personal-portfolio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
                         <a href="https://pleiterson.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img src={vercel} alt="Projeto" title="Site do Projeto"/>
                         </a>
@@ -100,6 +108,9 @@ export default function Projetos() {
                     <div className="view-project">
                         <a href="https://github.com/Pleiterson/clone-interface-netflix-html-css-js" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/clone-interface-netflix-html-css-js" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
                         </a>
                         <a href="https://clone-netflix.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img src={vercel} alt="Projeto" title="Site do Projeto"/>
@@ -126,6 +137,9 @@ export default function Projetos() {
                         <a href="https://github.com/Pleiterson/clone-home-instagram-html-css" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="Repositório" title="Repositório do Projeto"/>
                         </a>
+                        <a href="https://gitlab.com/pleiterson/clone-home-instagram-html-css" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
                         <a href="https://clone-instagram.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img src={vercel} alt="Projeto" title="Site do Projeto"/>
                         </a>
@@ -150,6 +164,9 @@ export default function Projetos() {
                     <div className="view-project">
                         <a href="https://github.com/Pleiterson/nlw2-discovery-proffy" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/nlw2-discovery-proffy" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
                         </a>
                         {/* <a href="" target="_blank" rel="noopener noreferrer">
                             <img src={vercel} alt="Projeto" title="Site do Projeto"/>
@@ -176,6 +193,9 @@ export default function Projetos() {
                         <a href="https://github.com/Pleiterson/imersao-reactjs-pleiflix" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="Repositório" title="Repositório do Projeto"/>
                         </a>
+                        <a href="https://gitlab.com/pleiterson/imersao-reactjs-pleiflix" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
                         <a href="https://pleiflix.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img src={vercel} alt="Projeto" title="Site do Projeto"/>
                         </a>
@@ -200,6 +220,9 @@ export default function Projetos() {
                     <div className="view-project">
                         <a href="https://github.com/Pleiterson/imersaogamedev-javascript" target="_blank" rel="noopener noreferrer">
                             <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/imersaogamedev-javascript" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
                         </a>
                         <a href="https://abruxahipsta.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img src={vercel} alt="Projeto" title="Site do Projeto"/>

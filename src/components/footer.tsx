@@ -5,6 +5,7 @@ import insta from '../assets/images/instagram.png';
 import twitter from '../assets/images/twitter.svg';
 import linkedin from '../assets/images/linkedin.svg';
 import github from '../assets/images/github.png';
+import gitlab from '../assets/images/gitlab.svg';
 
 export default function Footer() {
     return (
@@ -34,6 +35,9 @@ export default function Footer() {
                     </a>
                     <a target="_blank" href="http://github.com/Pleiterson" rel="noopener noreferrer">
                         <img src={github} alt="GitHub" title="GitHub" className="social"/>
+                    </a>
+                    <a target="_blank" href="http://gitlab.com/pleiterson" rel="noopener noreferrer">
+                        <img src={gitlab} alt="GitLab" title="GitLab" className="social"/>
                     </a>
                 </div>
                 <p className="register">Pleiterson Amorim 2020</p> {/*incluir 2020-2021 em 2021*/}

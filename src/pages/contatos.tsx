@@ -12,6 +12,7 @@ import twitter from '../assets/images/twitter.svg';
 import facebook from '../assets/images/facebook.svg';
 import youtube from '../assets/images/youtube.png';
 import pinterest from '../assets/images/pinterest.png';
+import gitlab from '../assets/images/gitlab.svg';
 import qrcodelinkedin from '../assets/qrcodes/qr_code-linkedin.png';
 import qrcodegithub from '../assets/qrcodes/qr_code-github.png';
 import qrcodesourcerer from '../assets/qrcodes/qr_code-sourcerer.png';
@@ -21,6 +22,7 @@ import qrcodetwitter from '../assets/qrcodes/qr_code-twitter.png';
 import qrcodefacebook from '../assets/qrcodes/qr_code-facebook.png';
 import qrcodeyoutube from '../assets/qrcodes/qr_code-youtube.png';
 import qrcodepinterest from '../assets/qrcodes/qr_code-pinterest.png';
+import qrcodegitlab from '../assets/qrcodes/qr_code-gitlab.png';
 
 export default function Contatos() {
     return (
@@ -52,6 +54,13 @@ export default function Contatos() {
                     </a>
                     <img src={qrcodegithub} alt="QR Code GitHub" title="QR Code GitHub" className="qrcode"/>
                     <p>GitHub</p>
+                </div>
+                <div className="item">
+                    <a href="https://gitlab.com/pleiterson" target="_blank" rel="noopener noreferrer">
+                        <img src={gitlab} alt="GitLab" title="GitLab" className="rede"/>
+                    </a>
+                    <img src={qrcodegitlab} alt="QR Code GitLab" title="QR Code GitLab" className="qrcode"/>
+                    <p>GitLab</p>
                 </div>
                 <div className="item">
                     <a href="https://sourcerer.io/pleiterson" target="_blank" rel="noopener noreferrer">
@@ -99,7 +108,7 @@ export default function Contatos() {
                     <a href="https://br.pinterest.com/pleiterson/" target="_blank" rel="noopener noreferrer">
                         <img src={pinterest} alt="Pinterest" title="Pinterest" className="rede"/>
                     </a>
-                    <img src={qrcodepinterest} alt="QR Code " title="QR Code " className="qrcode"/>
+                    <img src={qrcodepinterest} alt="QR Code Pinterest" title="QR Code Pinterest" className="qrcode"/>
                     <p>Pinterest</p>
                 </div>
                 {/* <div className="item">
