@@ -12,6 +12,7 @@ import proffy from '../assets/projects/proffy.png';
 import netflix from '../assets/projects/netflix.png';
 import portfolio from '../assets/projects/portfolio.png';
 import uivercel from '../assets/projects/vercel.png';
+import uitypeform from '../assets/projects/typeform.png';
 import languagehipsta from '../assets/projects/languages-hipsta.png';
 import languagepleiflix from '../assets/projects/languages-pleiflix.png';
 import languageproffy from '../assets/projects/languages-proffy.png';
@@ -19,6 +20,7 @@ import languageinsta from '../assets/projects/languages-insta.png';
 import languagenetflix from '../assets/projects/languages-netflix.png';
 import languageport from '../assets/projects/languages-portfolio.png';
 import languagevercel from '../assets/projects/languages-vercel.png';
+import languagetypeform from '../assets/projects/languages-typeform.png';
 
 export default function Projetos() {
     return (
@@ -36,6 +38,34 @@ export default function Projetos() {
             </div>
 
             <main className="projects">
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>UI Clone Typeform</h3>
+                    </div>
+                    <div className="image">
+                        <img src={uitypeform} alt="Typeform" title="UI Clone Typeform"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Código do vídeo "Homepage Animada do Typeform com Framer Motion" do YouTube da Rocketseat</p>
+                    </div>
+                    <div className="pos">
+                        <p>UI focado na animação da homepage da Typeform. UI focado na animação da página. Não contém nenhuma imagem do site, focado apenas na animação do scroll.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/ui-clone-typeform-rocketseat" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/ui-clone-typeform-rocketseat" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://uiclone-typeform.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <img src={languagetypeform} alt="Linguagens"/>
+                    </div>
+                </div>
                 <div className="project">
                     <div className="sub-title">
                         <h3>UI Clone Vercel</h3>

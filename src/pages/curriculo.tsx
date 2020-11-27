@@ -15,6 +15,7 @@ import brasil from '../assets/images/brasil.png';
 import usa from '../assets/images/usa.png';
 import study from '../assets/badges/scrumstudy.png';
 import certiprof from '../assets/badges/certiprof.jpg';
+import whatsapp from '../assets/images/whatsapp.svg';
 
 export default function Curriculo() {
     return (
@@ -37,7 +38,13 @@ export default function Curriculo() {
 
                     <div className="contact">
                         <h2>Contatos</h2>
-                        <p><AiOutlinePhone size={20}/> +55 (31) 98878-9772</p>
+                        <p>
+                            <AiOutlinePhone size={20}/> +55 (31) 98878-9772 | Entre em contato
+                            {' '}
+                            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5531988789772&text=Olá! Vi seu currículo no seu Portfólio Pessoal. Podemos conversar?" target="_blank" rel="noopener noreferrer">
+                                <img src={whatsapp} alt="WhatsApp"/>
+                            </a>
+                        </p>
                         <p><FiAtSign size={20}/> pleiterson@gmail.com</p>
                         <p><GoLocation size={20}/> Bosque, Ibirité, Minas Gerais, Brasil</p>
                         <p><GiRelationshipBounds size={20}/> Casado</p>
