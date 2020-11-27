@@ -49,7 +49,7 @@ export default function Projetos() {
                         <p>Código do vídeo "Homepage Animada do Typeform com Framer Motion" do YouTube da Rocketseat</p>
                     </div>
                     <div className="pos">
-                        <p>UI focado na animação da homepage da Typeform. UI focado na animação da página. Não contém nenhuma imagem do site, focado apenas na animação do scroll.</p>
+                        <p>UI focado na animação da homepage da Typeform. Não contém nenhuma imagem do site, focado apenas na animação do scroll.</p>
                     </div>
                     <div className="view-project">
                         <a href="https://github.com/Pleiterson/ui-clone-typeform-rocketseat" target="_blank" rel="noopener noreferrer">
