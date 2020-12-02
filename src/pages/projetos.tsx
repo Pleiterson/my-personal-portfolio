@@ -13,6 +13,7 @@ import netflix from '../assets/projects/netflix.png';
 import portfolio from '../assets/projects/portfolio.png';
 import uivercel from '../assets/projects/vercel.png';
 import uitypeform from '../assets/projects/typeform.png';
+import snake from '../assets/projects/snake.png';
 import languagehipsta from '../assets/projects/languages-hipsta.png';
 import languagepleiflix from '../assets/projects/languages-pleiflix.png';
 import languageproffy from '../assets/projects/languages-proffy.png';
@@ -21,6 +22,7 @@ import languagenetflix from '../assets/projects/languages-netflix.png';
 import languageport from '../assets/projects/languages-portfolio.png';
 import languagevercel from '../assets/projects/languages-vercel.png';
 import languagetypeform from '../assets/projects/languages-typeform.png';
+import languagesnake from '../assets/projects/languages-snake.png';
 
 export default function Projetos() {
     return (
@@ -38,6 +40,34 @@ export default function Projetos() {
             </div>
 
             <main className="projects">
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Jogo da Cobrinha - Snake Game</h3>
+                    </div>
+                    <div className="image">
+                        <img src={snake} alt="Snake Game" title="Snake Game"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Game Snake criado durante o Bootcamp HTML Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Depois vou codificá-lo de forma responsiva. Ainda falta algumas melhorias a serem realizadas, como contagem de tempo e de comida utilizada, e mostrar uma mensagem de Game Over ao invés do alert.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/snake-game-javascript" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/snake-game-javascript" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://game-snake.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <img src={languagesnake} alt="Linguagens"/>
+                    </div>
+                </div>
                 <div className="project">
                     <div className="sub-title">
                         <h3>UI Clone Typeform</h3>
@@ -130,7 +160,7 @@ export default function Projetos() {
                         <img src={netflix} alt="Netflix" title="Clone interface Netflix"/>
                     </div>
                     <div className="description-project">
-                        <p>Clone da interface da Netflix do Bootcamp HTML Develper da Digital Innovation One</p>
+                        <p>Clone da interface da Netflix do Bootcamp HTML Developer da Digital Innovation One</p>
                     </div>
                     <div className="pos">
                         <p>Neste projeto realizei algumas alterações, como a logo da Netflix que no projeto original não tem. A fonte utilizada no original foi Arial, eu já incluí a fonte Roboto do Google Fonts.</p>
@@ -158,7 +188,7 @@ export default function Projetos() {
                         <img src={instagram} alt="Instagram" title="Clone home Instagram"/>
                     </div>
                     <div className="description-project">
-                        <p>Clone da home do Instagram do Bootcamp HTML Develper da Digital Innovation One</p>
+                        <p>Clone da home do Instagram do Bootcamp HTML Developer da Digital Innovation One</p>
                     </div>
                     <div className="pos">
                         <p>A imagem principal da página ainda não é a do Instagram. Posteriormente deixarei a mesma imagem da rede social, mudando vários perfis como modelo. Assim como o footer da página.</p>
