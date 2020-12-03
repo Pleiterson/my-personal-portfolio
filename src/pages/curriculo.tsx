@@ -39,8 +39,8 @@ export default function Curriculo() {
                     <div className="contact">
                         <h2>Contatos</h2>
                         <p>
-                            <AiOutlinePhone size={20}/> +55 (31) 98878-9772 | Entre em contato
-                            {' '}
+                            <AiOutlinePhone size={20}/> +55 (31) 98878-9772 | <i>Entre em contato → </i>
+                            {/* {' '} */}
                             <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5531988789772&text=Olá! Vi seu currículo no seu Portfólio Pessoal. Podemos conversar?" target="_blank" rel="noopener noreferrer">
                                 <img src={whatsapp} alt="WhatsApp"/>
                             </a>
@@ -71,7 +71,7 @@ export default function Curriculo() {
                         <div className="licenca">
                             <img src={certiprof} alt="CertiProf"/>
                             <div className="descricao-licenca">
-                                <h4>CertiProf Continuous Learner</h4>
+                                <h4>CertiProf Continuous Learner Lifelong Learning (LLL)</h4>
                                 <span><b>CertiProf</b></span>
                                 <span>Emitido em ago. 2020 ∙ Expira em ago. 2022</span>
                                 <span>Nº da credencial </span>

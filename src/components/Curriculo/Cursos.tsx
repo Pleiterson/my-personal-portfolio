@@ -23,11 +23,31 @@ export default function Cursos() {
                 <div className="description-licensed">
                     <h4></h4>
                     <span><b></b></span>
-                    <span>Emitido em nov. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Emitido em dez. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial </span>
                     <a href="" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div> */}
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp SPTech Desenvolvimento Back-end</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em dez. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial BEE6BE67</span>
+                    <a href="https://certificates.digitalinnovation.one/BEE6BE67" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp HTML Web Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em nov. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial EEECFA61</span>
+                    <a href="https://certificates.digitalinnovation.one/EEECFA61" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                </div>
+            </div>
             <div className="licensed">
                 <img src={conquer} alt="Escola Conquer"/>
                 <div className="description-licensed">
