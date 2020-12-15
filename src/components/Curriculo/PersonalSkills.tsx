@@ -16,6 +16,9 @@ import out from '../../assets/images/outsystems.png';
 import office from '../../assets/images/office.png';
 import excel from '../../assets/images/excel.png';
 import lgpd from '../../assets/images/lgpd.png';
+import java from '../../assets/images/java.svg';
+import angular from '../../assets/images/angularjs.svg';
+import postgresql from '../../assets/images/postgresql.svg';
 
 export default function PersonalSkills() {
     return(
@@ -27,6 +30,9 @@ export default function PersonalSkills() {
                     <img src={out} alt="OutSystems" title="OutSystems"/>
                     <img src={scrum} alt="Scrum" title="Scrum"/>
                     <img src={kanban} alt="Kanban" title="Kanban"/>
+                    <img src={angular} alt="Angular" title="Angular" className="skills"/>
+                    <img src={postgresql} alt="PostgreSQL" title="PostgreSQL" className="skills"/>
+                    <img src={java} alt="Java" title="Java" className="skills"/>
                 </div>
                 <div className="basic-intermediate">
                     <p><b>Básico a Intermediário</b></p>

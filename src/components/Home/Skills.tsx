@@ -52,6 +52,7 @@ export default function Skills() {
                     <img src={npm} alt="npm" title="npm" className="skills"/>
                     <img src={yarn} alt="Yarn" title="Yarn" className="skills"/>
                     <img src={reactjs} alt="React.JS" title="React.JS" className="skills"/>
+                    <img src={ts} alt="TypeScript" title="TypeScript" className="skills"/>
                     <img src={html5} alt="HTML5" title="HTML5" className="skills"/>
                     <img src={css3} alt="CSS3" title="CSS3" className="skills"/>
                     <img src={git} alt="Git" title="Git" className="skills"/>
@@ -68,16 +69,17 @@ export default function Skills() {
                     <img src={nodejs} alt="Node.JS" title="Node.JS" className="skills"/>
                     <img src={npm} alt="npm" title="npm" className="skills"/>
                     <img src={yarn} alt="Yarn" title="Yarn" className="skills"/>
+                    <img src={angular} alt="Angular" title="Angular" className="skills"/>
+                    <img src={postgresql} alt="PostgreSQL" title="PostgreSQL" className="skills"/>
+                    <img src={java} alt="Java" title="Java" className="skills"/>
                 </div>
                 <div className="box">
                     <h2>Estudo futuro...</h2>
-                    <img src={angular} alt="Angular" title="Angular" className="skills"/>
                     <img src={flutter} alt="Flutter" title="Flutter" className="skills"/>
                     <img src={kubernetes} alt="Kubernetes" title="Kubernetes" className="skills"/>
                     <img src={lavarel} alt="Lavarel" title="Lavarel" className="skills"/>
                     <img src={mongo} alt="MongoDB" title="MongoDB" className="skills"/>
                     <img src={mysql} alt="MySQL" title="MySQL" className="skills"/>
-                    <img src={postgresql} alt="PostgreSQL" title="PostgreSQL" className="skills"/>
                     <img src={python} alt="Python" title="Python" className="skills"/>
                     <img src={redux} alt="Redux" title="Redux" className="skills"/>
                     <img src={vuejs} alt="Vue.JS" title="Vue.JS" className="skills"/>
@@ -85,7 +87,6 @@ export default function Skills() {
                     <img src={bootstrap} alt="Bootstrap" title="Bootstrap" className="skills"/>
                     <img src={dnet} alt=".NET" title=".NET" className="skills"/>
                     <img src={gradle} alt="Gradle" title="Gradle" className="skills"/>
-                    <img src={java} alt="Java" title="Java" className="skills"/>
                     <img src={php} alt="php" title="php" className="skills"/>
                 </div>
             </div>
