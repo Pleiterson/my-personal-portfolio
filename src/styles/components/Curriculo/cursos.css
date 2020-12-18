@@ -26,9 +26,17 @@
     flex-direction: row;
 }
 
-.description-licensed a {
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-licensed a, .details a {
+    text-decoration: none;
     display: flex;
     margin-top: 10px;
     color: black;
-    text-decoration: none;
+    margin-right: 30px;
 }

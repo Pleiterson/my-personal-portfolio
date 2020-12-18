@@ -5,6 +5,7 @@ import Curriculo from './pages/curriculo';
 import Contatos from './pages/contatos';
 import Projetos from './pages/projetos';
 import Sobre from './pages/sobre';
+import Detalhes from './pages/detalhes';
 
 function Routes() {
     return (
@@ -15,6 +16,7 @@ function Routes() {
                 <Route path="/contatos" component={Contatos}/>
                 <Route path="/projetos" component={Projetos}/>
                 <Route path="/sobre" component={Sobre}/>
+                <Route path="/detalhes" component={Detalhes}/>
             </Switch>
         </BrowserRouter>
     );

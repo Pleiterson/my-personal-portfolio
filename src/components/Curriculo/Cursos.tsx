@@ -26,6 +26,11 @@ export default function Cursos() {
                     <span>Emitido em dez. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial </span>
                     <a href="" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    // apenas para bootcamps
+                    <div className="details">
+                        <a href="" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div> */}
             <div className="licensed">
@@ -35,7 +40,10 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em dez. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial BEE6BE67</span>
-                    <a href="https://certificates.digitalinnovation.one/BEE6BE67" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/BEE6BE67" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
             <div className="licensed">
@@ -45,7 +53,10 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em nov. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial EEECFA61</span>
-                    <a href="https://certificates.digitalinnovation.one/EEECFA61" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/EEECFA61" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
             <div className="licensed">
@@ -75,7 +86,10 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em set. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial 4EEBF4C3</span>
-                    <a href="https://certificates.digitalinnovation.one/4EEBF4C3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/4EEBF4C3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
             <div className="licensed">
@@ -118,6 +132,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=eUVqN2VoTFZkUk05UnZ3SGV1Rzl2QT09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Estratégias de Consultoria e Mapeamento de Processos - Aula IV: Jornada de Consultores LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -135,7 +151,10 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial 54B7799C</span>
-                    <a href="https://certificates.digitalinnovation.one/54B7799C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/54B7799C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
             <div className="licensed">
@@ -145,7 +164,10 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial F3CCF27C</span>
-                    <a href="https://certificates.digitalinnovation.one/F3CCF27C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/F3CCF27C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
             <div className="licensed">
@@ -155,7 +177,10 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial A90DBBF2</span>
-                    <a href="https://certificates.digitalinnovation.one/A90DBBF2" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/A90DBBF2" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
             <div className="licensed">
@@ -165,27 +190,10 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial 94447DF3</span>
-                    <a href="https://certificates.digitalinnovation.one/94447DF3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
-                </div>
-            </div>
-            <div className="licensed">
-                <img src={dio} alt="Digital Innovation One Inc."/>
-                <div className="description-licensed">
-                    <h4>Bootcamp Full-stack Developer Banco Carrefour</h4>
-                    <span><b>Digital Innovation One Inc.</b></span>
-                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
-                    <span>Nº da credencial B96662DD</span>
-                    <a href="https://certificates.digitalinnovation.one/B96662DD" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
-                </div>
-            </div>
-            <div className="licensed">
-                <img src={dio} alt="Digital Innovation One Inc."/>
-                <div className="description-licensed">
-                    <h4>Bootcamp Back-end Developer Carrefour</h4>
-                    <span><b>Digital Innovation One Inc.</b></span>
-                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
-                    <span>Nº da credencial B635F02F</span>
-                    <a href="https://certificates.digitalinnovation.one/B635F02F" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/94447DF3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
             <div className="licensed">
@@ -195,9 +203,42 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial E7A61E1A</span>
-                    <a href="https://certificates.digitalinnovation.one/E7A61E1A" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/E7A61E1A" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Full-stack Developer Banco Carrefour</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial B96662DD</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/B96662DD" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+
+            {/* Bootcamp Back-end Developer Carrefour */}
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Back-end Developer Carrefour</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial B635F02F</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/B635F02F" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+
+            {/* Mapeamento de Processos para adequação à LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -208,6 +249,8 @@ export default function Cursos() {
                     <a href="https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=aTZBYzBTSzNwQlR3NW1pS3h4Nk9JUT09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Modelos de adequação à LGPD - Aula III: Jornada de Consultores LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -218,6 +261,8 @@ export default function Cursos() {
                     <a href="https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=bEVrZ0V5b3pYb2ZpY293TVh4enNwdz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* A arte de vender: de vendedor a mestre em persuasão - Aula II: Jornada de Consultores LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -228,6 +273,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=dSt1ejNFNDcxQ1hCdHNNQjZQR21Ydz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Primeiros passos para você iniciar a sua atuação como Consultor em Privacidade de Dados (LGPD) -  Aula I: Jornada de Consultores LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -238,6 +285,8 @@ export default function Cursos() {
                     <a href="https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=Q0VkcXUyWk92dFNIeC92VmkwZEhQZz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Bootcamp Become Remote */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
@@ -245,9 +294,14 @@ export default function Cursos() {
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em jun. 2020 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial D9C99ED9</span>
-                    <a href="https://certificates.digitalinnovation.one/D9C99ED9" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/D9C99ED9" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
                 </div>
             </div>
+
+            {/* Como Conduzir um Projeto de Consultoria de Adequação à LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -258,6 +312,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=VkVlaEkvWFVXNEVlQk9FMEhkaEd4Zz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Ferramentas e Soluções para LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -268,6 +324,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=b2FnMURBNmlyQU9WK3dEenBRSzQvdz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Imersão GameDev JavaScript */}
             <div className="licensed">
                 <img src={alura} alt="Alura Cursos Online"/>
                 <div className="description-licensed">
@@ -278,6 +336,8 @@ export default function Cursos() {
                     <a href="https://i.imgur.com/HfkoTXf.jpg" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Inteligência Financeira */}
             <div className="licensed">
                 <img src={conquer} alt="Escola Conquer"/>
                 <div className="description-licensed">
@@ -288,6 +348,8 @@ export default function Cursos() {
                     <a href="https://drive.conqueronline.com.br/Certificados/Intelig%C3%AAncia%20Financeira/1594069138356-54271baa-ae16-4b52-978c-0ebffb9a3fc3.pdf" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* >Modelagem de Processos */}
             <div className="licensed">
                 <img src={bizagi} alt="Bizagi"/>
                 <div className="description-licensed">
@@ -298,6 +360,8 @@ export default function Cursos() {
                     <a href="https://i.imgur.com/PxoX1lV.jpg" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* OKR: Um caminho para o Business Agility */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -308,6 +372,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=eG9mcXlYenIvZ3dRVVRwKzVGd21PQT09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Profissional de Privacidade de Dados (LGPD) */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -318,6 +384,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_profissional.php?COD_INSCRICAO=NnZic0tuR2VxZ3dJRkZyQk1ibXRMUT09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Visão prática de um Profissional de Segurança da Informação */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -328,6 +396,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=U2ZkSWM0QW5uRythVFo4Qk4vTjRrdz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Gestão de Processos */}
             <div className="licensed">
                 <img src={ietec} alt="Ietec - Instituto de Educação Tecnológica"/>
                 <div className="description-licensed">
@@ -338,6 +408,8 @@ export default function Cursos() {
                     <a href="https://virtual.ietec.com.br/" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Semana da Gamificação */}
             <div className="licensed">
                 <img src={niduu} alt="Niduu"/>
                 <div className="description-licensed">
@@ -348,6 +420,8 @@ export default function Cursos() {
                     <a href="https://niduu.com/diploma/9mx3j" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Fundamentos de ITIL */}
             <div className="licensed">
                 <img src={bradesco} alt="Fundação Bradesco"/>
                 <div className="description-licensed">
@@ -358,6 +432,8 @@ export default function Cursos() {
                     <a href="https://www.ev.org.br/validar-certificado" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Gerenciamento do Escopo de Projetos */}
             <div className="licensed">
                 <img src={fgv} alt="Fundação Getulio Vargas"/>
                 <div className="description-licensed">
@@ -368,6 +444,8 @@ export default function Cursos() {
                     <a href="https://imgur.com/mGK5CDn.png" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Como Organizar o Orçamento Familiar */}
             <div className="licensed">
                 <img src={fgv} alt="Fundação Getulio Vargas"/>
                 <div className="description-licensed">
@@ -378,6 +456,8 @@ export default function Cursos() {
                     <a href="https://i.imgur.com/Pp8CrVk.jpg" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Curso Preparatório para Certificações EXIN - LGPD Essential e GDPR Foundation */}
             <div className="licensed">
                 <img src={opice} alt="Opice Blum Academy"/>
                 <div className="description-licensed">
@@ -388,6 +468,8 @@ export default function Cursos() {
                     <a href="https://e-certificado.com/login/autenticar?c=489101AFF73F9B73519950" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Treinamento PDCA */}
             <div className="licensed-last">
                 <img src={aec} alt="AeC Centro de Contatos"/>
                 <div className="description-licensed">

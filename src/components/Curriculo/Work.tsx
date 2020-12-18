@@ -18,6 +18,8 @@ export default function Work() {
                 <p>- Elaboração de apresentação de resultados do setor de Antifraude para gerência e diretoria;</p>
                 <p>- Realizar análises de Fraudes e Auditoria Interna (sistêmicas e documentais).</p>
             </div> */}
+
+            {/* Segurança Corporativa */}
             <div className="work">
                 <h4>ANALISTA ADMINISTRATIVO PLENO | <i>Segurança Corporativa</i></h4>
                 <div className="time-work">
@@ -29,6 +31,7 @@ export default function Work() {
                 <p>- Elaboração de apresentação de resultados do setor de Antifraude para gerência e diretoria;</p>
                 <p>- Realizar análises de Fraudes e Auditoria Interna (sistêmicas e documentais).</p>
             </div>
+            {/* Antifraude */}
             <div className="work">
                 <h4>ANALISTA DE FRAUDE | <i>Antifraude</i></h4>
                 <div className="time-work">
@@ -41,6 +44,8 @@ export default function Work() {
                 <p>- Foco em Prevenção e Custos;</p>
                 <p>- Relacionamento com organizações Federais, Municipais, Estaduais e com empresas de Segurança do Brasil.</p>
             </div>
+            
+            {/* Gestão de Acessos */}
             <div className="work">
                 <h4>AUXILIAR ADMINISTRATIVO | <i>Gestão de Acessos</i></h4>
                 <div className="time-work">
@@ -50,6 +55,8 @@ export default function Work() {
                 <p>- Controlar e gerenciar acessos (Logins e Senhas) para com os Sistemas internos e externos (empresa/cliente);</p>
                 <p>- Controle e confecção de Base SFTP de logins ativos/inativos (faturamento).</p>
             </div>
+
+            {/* Colortextil Participações LTDA. */}
             <div className="work-last">
                 <h4>AUXILIAR ADMINISTRATIVO | <i>Produção e Qualidade</i></h4>
                 <b>Colortextil Participações LTDA.</b>

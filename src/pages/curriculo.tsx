@@ -66,8 +66,11 @@ export default function Curriculo() {
                             </div>
                         </div>
                     </div>
+
                     <div className="certificacoes">
                         <h2>Certificações</h2>
+                        
+                    {/* CertiProf Continuous Learner Lifelong Learning (LLL) */}
                         <div className="licenca">
                             <img src={certiprof} alt="CertiProf"/>
                             <div className="descricao-licenca">
@@ -78,6 +81,8 @@ export default function Curriculo() {
                                 <a href="https://www.youracclaim.com/badges/6ba05a04-10f6-4eb0-aeaf-31496067a14a?source=linked_in_profile" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                             </div>
                         </div>
+
+                        {/* Scrum Foundation Professional Certificate (SFPC) */}
                         <div className="licenca">
                             <img src={certiprof} alt="CertiProf"/>
                             <div className="descricao-licenca">
@@ -88,6 +93,8 @@ export default function Curriculo() {
                                 <a href="https://www.youracclaim.com/badges/750429a6-9f36-4ebf-9c35-5e7cf909ca68/linked_in" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                             </div>
                         </div>
+
+                        {/* Scrum Fundamentals Certified (SFC) */}
                         <div className="licenca-last">
                             <img src={study} alt="ScrumStudy"/>
                             <div className="descricao-licenca">
