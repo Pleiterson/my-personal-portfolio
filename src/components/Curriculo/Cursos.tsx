@@ -209,6 +209,8 @@ export default function Cursos() {
                     </div>
                 </div>
             </div>
+
+            {/* Bootcamp Full-stack Developer Banco Carrefour */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">

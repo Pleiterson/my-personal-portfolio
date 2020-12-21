@@ -1,6 +1,6 @@
 .details-course {
-    /* background-color: #ffffff; */
-    /* color: #000000; */
+    background-color: #ffffff;
+    color: #000000;
     padding: 15px;
 }
 
@@ -34,7 +34,7 @@
 .bootcamp-data a,
 .course-data a {
     display: flex;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -53,6 +53,17 @@
     margin: 5px;
     width: 70;
     height: 70px;
+}
+
+.repos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.repos img{
+    width: 20px;
+    height: 20px;
 }
 
 @media(max-width: 700px) {
