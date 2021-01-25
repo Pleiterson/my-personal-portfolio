@@ -40,6 +40,7 @@ export default function Projetos() {
             </div>
 
             <main className="projects">
+                {/* Jogo da Cobrinha - Snake Game */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>Jogo da Cobrinha - Snake Game</h3>
@@ -68,6 +69,7 @@ export default function Projetos() {
                         <img src={languagesnake} alt="Linguagens"/>
                     </div>
                 </div>
+                {/* UI Clone Typeform */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>UI Clone Typeform</h3>
@@ -96,6 +98,7 @@ export default function Projetos() {
                         <img src={languagetypeform} alt="Linguagens"/>
                     </div>
                 </div>
+                {/* UI Clone Vercel */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>UI Clone Vercel</h3>
@@ -124,6 +127,7 @@ export default function Projetos() {
                         <img src={languagevercel} alt="Linguagens"/>
                     </div>
                 </div>
+                {/* Meu Portfólio Pessoal */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>Meu Portfólio Pessoal</h3>
@@ -152,6 +156,7 @@ export default function Projetos() {
                         <img src={languageport} alt="Linguagens"/>
                     </div>
                 </div>
+                {/* Clone interface Netflix */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>Clone interface Netflix</h3>
@@ -179,7 +184,8 @@ export default function Projetos() {
                     <div className="languages-project">
                         <img src={languagenetflix} alt="Linguagens"/>
                     </div>
-                </div>                
+                </div>
+                {/* Clone home Instagram */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>Clone home Instagram</h3>
@@ -208,6 +214,7 @@ export default function Projetos() {
                         <img src={languageinsta} alt="Linguagens"/>
                     </div>
                 </div>
+                {/* Proffy */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>Proffy</h3>
@@ -236,6 +243,7 @@ export default function Projetos() {
                         <img src={languageproffy} alt="Linguagens"/>
                     </div>
                 </div>
+                {/* PleiFlix */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>PleiFlix</h3>
@@ -264,6 +272,7 @@ export default function Projetos() {
                         <img src={languagepleiflix} alt="Linguagens"/>
                     </div>
                 </div>
+                {/* As Aventuras da Bruxa Hipsta */}
                 <div className="project">
                     <div className="sub-title">
                         <h3>As Aventuras da Bruxa Hipsta</h3>

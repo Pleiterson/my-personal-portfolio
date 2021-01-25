@@ -6,7 +6,7 @@ export default function Work() {
         <div className="work-experience">            
             <h2>Experiência Profissional</h2>                        
             <h3>AeC Centro de Contatos</h3>
-            <p>12 anos 3 meses</p>
+            <p>12 anos 5 meses</p>
             {/* <div className="work">
                 <h4>ANALISTA ADMINISTRATIVO PLENO | <i>Segurança Corporativa</i></h4>
                 <div className="time-work">
@@ -23,7 +23,7 @@ export default function Work() {
             <div className="work">
                 <h4>ANALISTA ADMINISTRATIVO PLENO | <i>Segurança Corporativa</i></h4>
                 <div className="time-work">
-                    <span>fev. 2017 até o momento | 3 anos 10 meses</span>
+                    <span>fev. 2017 até o momento | 4 anos</span>
                     <span>Belo Horizonte e Região, Brasil</span>
                 </div>
                 <p>- Elaboração e Mapeamento de Processos de Negócio do setor de Segurança Corporativa;</p>

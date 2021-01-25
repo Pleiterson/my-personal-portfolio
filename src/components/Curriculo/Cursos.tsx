@@ -23,7 +23,7 @@ export default function Cursos() {
                 <div className="description-licensed">
                     <h4></h4>
                     <span><b></b></span>
-                    <span>Emitido em dez. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
                     <span>Nº da credencial </span>
                     <a href="" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                     // apenas para bootcamps
@@ -33,6 +33,162 @@ export default function Cursos() {
                     </div>
                 </div>
             </div> */}
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp SPTech Desenvolvimento Full-stack</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial FAF002D6</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/FAF002D6" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp GFT START_UNI 2021 #1</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 9FEE321D</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/9FEE321D" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Node.js Web Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 06CCA3C0</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/06CCA3C0" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp .Net Fundamentals</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 0B43D414</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/0B43D414" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Decola Dev Avanade 2021</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 45F6E56E</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/45F6E56E" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp everis FullStack Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 01249169</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/01249169" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp React Web Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial FE324011</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/FE324011" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp SPTech Desenvolvimento Front-end</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 154203DE</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/154203DE" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Java Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 74752087</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/74752087" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp JavaScript Game Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial EBF34A30</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/EBF34A30" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Avanade Full-stack Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 547C7749</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/547C7749" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp React Native Mobile Developer</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jan. 2021 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 6C028EC9</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/6C028EC9" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
@@ -147,6 +303,19 @@ export default function Cursos() {
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
+                    <h4>Bootcamp Desenvolvedor Back-end PHP</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 94447DF3</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/94447DF3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
                     <h4>Bootcamp Desenvolvedor Front-end React.JS</h4>
                     <span><b>Digital Innovation One Inc.</b></span>
                     <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
@@ -183,19 +352,8 @@ export default function Cursos() {
                     </div>
                 </div>
             </div>
-            <div className="licensed">
-                <img src={dio} alt="Digital Innovation One Inc."/>
-                <div className="description-licensed">
-                    <h4>Bootcamp Desenvolvedor Back-end PHP</h4>
-                    <span><b>Digital Innovation One Inc.</b></span>
-                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
-                    <span>Nº da credencial 94447DF3</span>
-                    <div className="details">
-                        <a href="https://certificates.digitalinnovation.one/94447DF3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
-                        <a href="/detalhes">Ver detalhes do bootcamp</a>
-                    </div>
-                </div>
-            </div>
+
+            {/* Bootcamp Global Full-stack Developer */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">

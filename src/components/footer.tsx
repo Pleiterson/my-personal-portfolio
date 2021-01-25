@@ -40,7 +40,7 @@ export default function Footer() {
                         <img src={gitlab} alt="GitLab" title="GitLab" className="social"/>
                     </a>
                 </div>
-                <p className="register">Pleiterson Amorim 2020</p> {/*incluir 2020-2021 em 2021*/}
+                <p className="register">Copyright © Pleiterson Amorim 2020-2021</p>
             </div>
         </footer>
     );

@@ -899,6 +899,11 @@ export default function Detalhes() {
                             <span>Nível: Básico ∙ Duração: 2 horas</span>
                             <span>Nº da credencial B23AE002</span>
                             <a href="https://certificates.digitalinnovation.one/B23AE002" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/programacao-internet-js-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor"/>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     {/* JavaScript ES6 essencial */}
@@ -910,6 +915,17 @@ export default function Detalhes() {
                             <span>Nível: Intermediário ∙ Duração: 4 horas</span>
                             <span>Nº da credencial 40273713</span>
                             <a href="https://certificates.digitalinnovation.one/40273713" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/javascript-es6-essencial-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/introducao-ao-javascript-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor"/>
+                                </a>
+                                <a href="https://github.com/tc39/proposal-decorators" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Proposal Decorators"/>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     {/* Desenvolvimento avançado com JavaScript ES6 */}
@@ -921,6 +937,11 @@ export default function Detalhes() {
                             <span>Nível: Avançado ∙ Duração: 5 horas</span>
                             <span>Nº da credencial 8F3A0FF8</span>
                             <a href="https://certificates.digitalinnovation.one/8F3A0FF8" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/javascript-es6-avancado-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - NodeJS com Express"/>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     {/* Introdução ao Node.js com Express */}
@@ -932,6 +953,23 @@ export default function Detalhes() {
                             <span>Nível: Básico ∙ Duração: 2 horas</span>
                             <span>Nº da credencial C77A2991</span>
                             <a href="https://certificates.digitalinnovation.one/C77A2991" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/node-express" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - NodeJS com Express"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/node-cli" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - CLI"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/node-clima-cli" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - Clima CLI"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/pug-template" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - Pug Template"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/pug-express" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - Pug com Express"/>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     {/* Desenvolvimento back-end com Node.js */}
