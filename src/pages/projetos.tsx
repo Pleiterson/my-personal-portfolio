@@ -14,15 +14,18 @@ import portfolio from '../assets/projects/portfolio.png';
 import uivercel from '../assets/projects/vercel.png';
 import uitypeform from '../assets/projects/typeform.png';
 import snake from '../assets/projects/snake.png';
-import languagehipsta from '../assets/projects/languages-hipsta.png';
-import languagepleiflix from '../assets/projects/languages-pleiflix.png';
-import languageproffy from '../assets/projects/languages-proffy.png';
-import languageinsta from '../assets/projects/languages-insta.png';
-import languagenetflix from '../assets/projects/languages-netflix.png';
-import languageport from '../assets/projects/languages-portfolio.png';
-import languagevercel from '../assets/projects/languages-vercel.png';
-import languagetypeform from '../assets/projects/languages-typeform.png';
-import languagesnake from '../assets/projects/languages-snake.png';
+import dino from '../assets/projects/dinossauro.png';
+import ifood from '../assets/projects/ifood.png';
+import mercadoLivre from '../assets/projects/mercado-livre.png';
+import ptempo from '../assets/projects/ptempo.png';
+import naves from '../assets/projects/naves.png';
+import genius from '../assets/projects/genius.png';
+import mario from '../assets/projects/mario.png';
+import velha from '../assets/projects/velha.png';
+import shooter from '../assets/projects/shooter.png';
+import covid from '../assets/projects/covid19.png';
+import dio from '../assets/projects/dio.png';
+import telegram from '../assets/projects/telegram.png';
 
 export default function Projetos() {
     return (
@@ -40,6 +43,423 @@ export default function Projetos() {
             </div>
 
             <main className="projects">
+                {/* Chatbot Fit Telegram */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Chatbot Fit Telegram</h3>
+                    </div>
+                    <div className="image">
+                        <img src={telegram} alt="dio" title=">Chatbot Fit Telegram"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Construindo um ChatbotFit no Telegram com JavaScript e NodeJS</p>
+                    </div>
+                    <div className="pos">
+                        <p>Chatbot no Telegram para buscas de vídeos de exercícios físicos no YouTube utilizando uma plataforma de entendimento de linguagem natural chamada DialogFlow.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/chatbotfit-telegram-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/chatbotfit-telegram-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        {/* REMOVER <a href="https://game-space-shooter.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a> */}
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                {/* Serverless Sexy API */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Serverless Sexy API</h3>
+                    </div>
+                    <div className="image">
+                        <img src={dio} alt="dio" title=">Serverless Sexy API"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Construindo sexy APIs usando arquitetura serverless</p>
+                    </div>
+                    <div className="pos">
+                        <p>Projeto de “APIs para Gestão de Produtos utilizando Node.js” ao qual você praticará e aplicará os conceitos de desenvolvimento de APIs e Arquitetura Serverless com Node.js.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/serverless-sexy-api-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/serverless-sexy-api-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                {/* Transferência Bancária - Plei Bank */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Transferência Bancária - Plei Bank</h3>
+                    </div>
+                    <div className="image">
+                        <img src={dio} alt="dio" title=">Transferência Bancária - Plei Bank"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Criando uma aplicação de transferências bancárias com .NET da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizada no mercado.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/transferencia-bancaria-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/transferencia-bancaria-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>C#</p>
+                    </div>
+                </div>
+                {/* Cadastro de séries em .NET */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Cadastro de séries em .NET</h3>
+                    </div>
+                    <div className="image">
+                        <img src={dio} alt="dio" title=">Cadastro de séries em .NET"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Criando um APP simples de cadastro de séries em .NET da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Criado um algoritmo simples de cadastro de séries para praticar conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/cadastro-series-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/cadastro-series-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>C#</p>
+                    </div>
+                </div>
+                {/* Mapeamento Covid-19 pelo Mundo */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Mapeamento Covid-19 pelo Mundo</h3>
+                    </div>
+                    <div className="image">
+                        <img src={covid} alt="covid" title=">Mapeamento Covid-19"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Desenvolvendo uma Progressive Web Application com React para mapear os dados do COVID19 pelo mundo</p>
+                    </div>
+                    <div className="pos">
+                        <p>Mantenha-se informado de todos os casos do COVID-19 pelo mundo com uma PWA utilizando React sendo executada no browser e funcionar como aplicativo contendo algumas funcionalidades de um app nativo.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/mapeamento-covid19-js" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/mapeamento-covid19-js" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - HTML</p>
+                    </div>
+                </div>
+                {/* Jogo estilo Space Shooter */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Jogo estilo Space Shooter</h3>
+                    </div>
+                    <div className="image">
+                        <img src={shooter} alt="shooter" title="Jogo estilo Space Shooter"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Jogo estilo Space Shooter criado no Bootcamp JavaScript Game Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Nesse projeto, foi criado o jogo Space Shooter utilizando HTML, CSS e Javascript.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/game-space-shooter-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/game-space-shooter-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://game-space-shooter.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - HTML - CSS</p>
+                    </div>
+                </div>
+                {/* Jogo da Velha */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Jogo da Velha</h3>
+                    </div>
+                    <div className="image">
+                        <img src={velha} alt="velha" title="Jogo da Velha"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Jogo da Velha criado no Bootcamp JavaScript Game Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Jogo da Velha criado utilizando somente HTML, CSS e Javascript para criarmos toda suas interações, desde a escolha do jogador, efetivar uma jogada e dar um vencedor ao jogo.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/jogo-da-velha-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/jogo-da-velha-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://jogo-velha.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - HTML - CSS</p>
+                    </div>
+                </div>
+                {/* Jogo da Memória - Mário */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Jogo da Memória - Mário</h3>
+                    </div>
+                    <div className="image">
+                        <img src={mario} alt="mario" title="Jogo da Memória - Mário"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Jogo da memória, estilo Super Mário, criado no Bootcamp JavaScript Game Developer da DIO</p>
+                    </div>
+                    <div className="pos">
+                        <p>Com poucas linhas de código, foi desenvolvido, com efeitos 3D no CSS e lógica de programação utilizando condicionais, Immediately Invoked Function Expression e manipulação de Array.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/game-memoria-mario-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/game-memoria-mario-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://game-memoria-mario.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - HTML - CSS</p>
+                    </div>
+                </div>
+                {/* Jogo da Memória - Genius */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Jogo da Memória - Genius</h3>
+                    </div>
+                    <div className="image">
+                        <img src={genius} alt="genius" title="Jogo da Memória - Genius"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Jogo da memória, estilo Genius, criado no Bootcamp JavaScript Game Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Nesse projeto, foi criado o jogo Genius utilizando apenas HTML, CSS e Javascript de forma introdutória, sendo o principal conceito, CSS Grid, manipulação de Array e Arrow Functions.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/game-memoria-genius-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/game-memoria-genius-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://game-genius.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - HTML - CSS</p>
+                    </div>
+                </div>
+                {/* Jogo de Naves - Resgate */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Jogo de Naves - Resgate</h3>
+                    </div>
+                    <div className="image">
+                        <img src={naves} alt="naves" title="Jogo de Naves - Resgate"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Jogo de naves e Resgate criado no Bootcamp JavaScript Game Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Utilizando o HTML5 juntamente com CSS3 e JavaScript, é possível desenvolver jogos de forma rápida e compatível com diversas plataformas.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/game-de-naves-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/game-de-naves-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://game-resgate.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - HTML - CSS</p>
+                    </div>
+                </div>
+                {/* API Previsão do Tempo */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>API de Previsão do Tempo</h3>
+                    </div>
+                    <div className="image">
+                        <img src={ptempo} alt="ptempo" title="API Previsão do tempo"/>
+                    </div>
+                    <div className="description-project">
+                        <p>API de Previsão do Tempo criado no Bootcamp React Native Mobile Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>API de Previsão do Tempo desenvolvido em Angular, e com os dados da Open Weather.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/api-previsao-tempo-angular" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/api-previsao-tempo-angular" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://api-previsao-tempo.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - TypeScript - HTML - SCSS - Angular</p>
+                    </div>
+                </div>
+                {/* Clone Mercado Livre - React Native */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Clone Mercado Livre</h3>
+                    </div>
+                    <div className="image">
+                        <img src={mercadoLivre} alt="mercadoLivre" title="mercadoLivre"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Clone do Mercado Livre realizado no Bootcamp React Native Mobile Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Aplicativo semelhante ao Mercado Livre em React Native e Firebase, desenvolvido do zero a estrutura de front-end com React e toda a interface utilizando Autentications, Cloud Storage e Cloud Firestore.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/clone-mercadolivre-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/clone-mercadolivre-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://game-dinossauro.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - React Native - Expo</p>
+                    </div>
+                </div>
+                {/* Clone iFood - React Native */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Clone iFood</h3>
+                    </div>
+                    <div className="image">
+                        <img src={ifood} alt="iFood" title="iFood"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Clone do iFood realizado no Bootcamp React Native Mobile Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Nesse projeto foi recriada a interface inicial do iFood, com a listagem de restaurantes, carrousel de banners e categorias. Utilizando React Native, Hooks do React para controle de estado, React Navigation.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/clone-ifood-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/clone-ifood-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - React Native - Expo</p>
+                    </div>
+                </div>
+                {/* Clone Instagram - React Native */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Clone interface e feed Instagram</h3>
+                    </div>
+                    <div className="image">
+                        <img src={instagram} alt="Instagram" title="Instagram"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Clone do Instagram realizado no Bootcamp React Native Mobile Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Nesse projeto foi realizado o clone da interface da página de feed de postagens do app Instagram, utilizando React Native, os Hooks do React para controle de estado, e React Navigation.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/cloneInstagramDIO" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/cloneInstagramDIO" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - React Native</p>
+                    </div>
+                </div>
+                {/* Jogo do Dinossauro - Sem internet */}
+                <div className="project">
+                    <div className="sub-title">
+                        <h3>Jogo do Dinossauro - Sem internet</h3>
+                    </div>
+                    <div className="image">
+                        <img src={dino} alt="Dino Game" title="Dino Game"/>
+                    </div>
+                    <div className="description-project">
+                        <p>Jogo criado durante o Bootcamp React Native Mobile Developer da Digital Innovation One</p>
+                    </div>
+                    <div className="pos">
+                        <p>Ainda falta algumas melhorias a serem realizadas, como contagem de tempo.</p>
+                    </div>
+                    <div className="view-project">
+                        <a href="https://github.com/Pleiterson/game-dinossauro-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={github} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://gitlab.com/pleiterson/game-dinossauro-dio" target="_blank" rel="noopener noreferrer">
+                            <img src={gitlab} alt="Repositório" title="Repositório do Projeto"/>
+                        </a>
+                        <a href="https://game-dinossauro.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img src={vercel} alt="Projeto" title="Site do Projeto"/>
+                        </a>
+                    </div>
+                    <div className="languages-project">
+                        <p>JavaScript - HTML - CSS</p>
+                    </div>
+                </div>
                 {/* Jogo da Cobrinha - Snake Game */}
                 <div className="project">
                     <div className="sub-title">
@@ -66,7 +486,7 @@ export default function Projetos() {
                         </a>
                     </div>
                     <div className="languages-project">
-                        <img src={languagesnake} alt="Linguagens"/>
+                        <p>JavaScript - HTML - CSS</p>
                     </div>
                 </div>
                 {/* UI Clone Typeform */}
@@ -95,7 +515,7 @@ export default function Projetos() {
                         </a>
                     </div>
                     <div className="languages-project">
-                        <img src={languagetypeform} alt="Linguagens"/>
+                        <p>TypeScript - HTML</p>
                     </div>
                 </div>
                 {/* UI Clone Vercel */}
@@ -124,7 +544,7 @@ export default function Projetos() {
                         </a>
                     </div>
                     <div className="languages-project">
-                        <img src={languagevercel} alt="Linguagens"/>
+                        <p>HTML - SCSS</p>
                     </div>
                 </div>
                 {/* Meu Portfólio Pessoal */}
@@ -153,7 +573,7 @@ export default function Projetos() {
                         </a>
                     </div>
                     <div className="languages-project">
-                        <img src={languageport} alt="Linguagens"/>
+                        <p>TypeScript - HTML - CSS</p>
                     </div>
                 </div>
                 {/* Clone interface Netflix */}
@@ -182,7 +602,7 @@ export default function Projetos() {
                         </a>
                     </div>
                     <div className="languages-project">
-                        <img src={languagenetflix} alt="Linguagens"/>
+                        <p>JavaScript - HTML - CSS</p>
                     </div>
                 </div>
                 {/* Clone home Instagram */}
@@ -210,8 +630,8 @@ export default function Projetos() {
                             <img src={vercel} alt="Projeto" title="Site do Projeto"/>
                         </a>
                     </div>
-                    <div className="languages">
-                        <img src={languageinsta} alt="Linguagens"/>
+                    <div className="languages-project">
+                        <p>HTML - CSS</p>
                     </div>
                 </div>
                 {/* Proffy */}
@@ -240,7 +660,7 @@ export default function Projetos() {
                         </a> */}
                     </div>
                     <div className="languages-project">
-                        <img src={languageproffy} alt="Linguagens"/>
+                        <p>JavaScript - HTML - CSS</p>
                     </div>
                 </div>
                 {/* PleiFlix */}
@@ -269,7 +689,7 @@ export default function Projetos() {
                         </a>
                     </div>
                     <div className="languages-project">
-                        <img src={languagepleiflix} alt="Linguagens"/>
+                        <p>JavaScript - HTML - CSS</p>
                     </div>
                 </div>
                 {/* As Aventuras da Bruxa Hipsta */}
@@ -298,7 +718,7 @@ export default function Projetos() {
                         </a>
                     </div>
                     <div className="languages-project">
-                        <img src={languagehipsta} alt="Linguagens"/>
+                        <p>JavaScript</p>
                     </div>
                 </div>
             </main>

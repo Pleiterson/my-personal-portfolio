@@ -48,10 +48,10 @@
     box-sizing: border-box;
     border-radius: 13px;
     width:360px ;
-    height: 420px;
+    height: 400px;
 }
 
-.sub-title, .image,
+.sub-title,
 .description-project {
     margin-bottom: 15px;
 }
@@ -70,18 +70,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0px;
 }
 
 .view-project img {
-    margin-right: 15px;
+    margin: 6px;
     width: 30px;
     height: 30px;
 }
 
-.languages-project {
-    margin: 0;
-    right: 10px;
+.languages-project p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 6px;
 }
 
 @media(max-width: 700px) {
