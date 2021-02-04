@@ -215,6 +215,8 @@ export default function Cursos() {
                     </div>
                 </div>
             </div>
+
+            {/* Inteligência Emocional */}
             <div className="licensed">
                 <img src={conquer} alt="Escola Conquer"/>
                 <div className="description-licensed">
@@ -225,6 +227,8 @@ export default function Cursos() {
                     <a href="https://drive.conqueronline.com.br/Certificados/Intelig%C3%AAncia%20Emocional%20Conquer/1605903889539-3462fb03-5285-4fb4-a817-283b9211e6a9.pdf" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Full Agile */}
             <div className="licensed">
                 <img src={inova} alt="Inova Business School"/>
                 <div className="description-licensed">
@@ -235,6 +239,8 @@ export default function Cursos() {
                     <a href="https://i.imgur.com/UiqUcsy.jpg" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Bootcamp Especialista em Inovação Digital */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
@@ -248,6 +254,8 @@ export default function Cursos() {
                     </div>
                 </div>
             </div>
+
+            {/* Semana do Programador 7x OutSystems */}
             <div className="licensed">
                 <img src={out} alt="RafaOutSystems"/>
                 <div className="description-licensed">
@@ -258,6 +266,23 @@ export default function Cursos() {
                     <a href="https://i.imgur.com/Uy0u2VM.jpg" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Bootcamp Cloud Computing & Serverless */}
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Cloud Computing & Serverless</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em ago. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial AF77B1E7</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/AF77B1E7" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+
+            {/* Jornada de Formação Inicial de Consultores em Privacidade de Dados */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -268,6 +293,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=NVRCMlBRVENJNFpIQ081UTRoUU51dz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Transição de Carreira, Elaboração de Propostas e Desenho de Processos com BPMN - Aula V: Jornada de Consultores LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -278,6 +305,8 @@ export default function Cursos() {
                     <a href="https://www.tiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=dEt3MXpjQm5xbWUwZHZYbUE0UjJwUT09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
+
+            {/* Mapeamento de Processos - Aula IV: Jornada de Consultores LGPD */}
             <div className="licensed">
                 <img src={tiexames} alt="TIexames"/>
                 <div className="description-licensed">
@@ -300,32 +329,8 @@ export default function Cursos() {
                     <a href="https://www.eadtiexames.com.br/novoensino/certificado_evento_pdf.php?COD_INSCRICAO=djBmM2NlQTVZV2VtVVl0aWpnOHN2dz09" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                 </div>
             </div>
-            <div className="licensed">
-                <img src={dio} alt="Digital Innovation One Inc."/>
-                <div className="description-licensed">
-                    <h4>Bootcamp Desenvolvedor Back-end PHP</h4>
-                    <span><b>Digital Innovation One Inc.</b></span>
-                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
-                    <span>Nº da credencial 94447DF3</span>
-                    <div className="details">
-                        <a href="https://certificates.digitalinnovation.one/94447DF3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
-                        <a href="/detalhes">Ver detalhes do bootcamp</a>
-                    </div>
-                </div>
-            </div>
-            <div className="licensed">
-                <img src={dio} alt="Digital Innovation One Inc."/>
-                <div className="description-licensed">
-                    <h4>Bootcamp Desenvolvedor Front-end React.JS</h4>
-                    <span><b>Digital Innovation One Inc.</b></span>
-                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
-                    <span>Nº da credencial 54B7799C</span>
-                    <div className="details">
-                        <a href="https://certificates.digitalinnovation.one/54B7799C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
-                        <a href="/detalhes">Ver detalhes do bootcamp</a>
-                    </div>
-                </div>
-            </div>
+
+            {/* Bootcamp Desenvolvedor Front-end Angular */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
@@ -339,6 +344,23 @@ export default function Cursos() {
                     </div>
                 </div>
             </div>
+
+            {/* Bootcamp Desenvolvedor Back-end PHP */}
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Desenvolvedor Back-end PHP</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 94447DF3</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/94447DF3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+
+            {/* Bootcamp Desenvolvedor Full-stack Python */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
@@ -348,6 +370,21 @@ export default function Cursos() {
                     <span>Nº da credencial A90DBBF2</span>
                     <div className="details">
                         <a href="https://certificates.digitalinnovation.one/A90DBBF2" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        <a href="/detalhes">Ver detalhes do bootcamp</a>
+                    </div>
+                </div>
+            </div>
+
+            {/* Bootcamp Desenvolvedor Front-end React.JS */}
+            <div className="licensed">
+                <img src={dio} alt="Digital Innovation One Inc."/>
+                <div className="description-licensed">
+                    <h4>Bootcamp Desenvolvedor Front-end React.JS</h4>
+                    <span><b>Digital Innovation One Inc.</b></span>
+                    <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
+                    <span>Nº da credencial 54B7799C</span>
+                    <div className="details">
+                        <a href="https://certificates.digitalinnovation.one/54B7799C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
                         <a href="/detalhes">Ver detalhes do bootcamp</a>
                     </div>
                 </div>
