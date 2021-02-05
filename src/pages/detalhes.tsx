@@ -93,6 +93,25 @@ import EIDAula8 from '../assets/bootcamps/fundamentos-prod-digitais.png';
 import EIDAula9 from '../assets/bootcamps/okr.png';
 import EIDAula10 from '../assets/bootcamps/captacao-investimentos.png';
 import EIDAula11 from '../assets/bootcamps/lideranca-agil.png';
+import HTMLDeveloper from '../assets/bootcamps/EEECFA61-00.png';
+import HTMLAula5 from '../assets/bootcamps/pj-instagram.png';
+import HTMLAula7 from '../assets/bootcamps/ds-prog-js.png';
+import HTMLAula8 from '../assets/bootcamps/pj-netflix.png';
+import HTMLAula10 from '../assets/bootcamps/ds-fun-arit-js.png';
+import HTMLAula11 from '../assets/bootcamps/pj-cobrinha.png';
+import SPTechBackend from '../assets/bootcamps/BEE6BE67-00.png';
+import NodeDeveloper from '../assets/bootcamps/06CCA3C0-00.png';
+import NJDAula7 from '../assets/bootcamps/map-filter-reduce.png';
+import NJDAula10 from '../assets/bootcamps/promises.png';
+import NJDAula11 from '../assets/bootcamps/async-await.png';
+import NJDAula12 from '../assets/bootcamps/ds-ordenacao-js.png';
+import NJDAula15 from '../assets/bootcamps/ds-busca-subs-js.png';
+import NJDAula17 from '../assets/bootcamps/arquit-node.png';
+import NJDAula18 from '../assets/bootcamps/pj-node-redis.png';
+import NJDAula19 from '../assets/bootcamps/pj-sexy-api.png';
+import NJDAula20 from '../assets/bootcamps/ds-solucao-js.png';
+import NJDAula24 from '../assets/bootcamps/ds-resolv-algo-js.png';
+import NJDAula26 from '../assets/bootcamps/pj-chatbotfit.png';
 
 export default function Detalhes() {
     return (
@@ -100,6 +119,853 @@ export default function Detalhes() {
             <Header />
 
             <main className="details-course">
+                {/* Bootcamp Node.js Web Developer */}
+                <div className="container-course">
+                    <div className="bootcamp">
+                        <img src={NodeDeveloper} alt="Badge Curso"/>
+                        <div className="bootcamp-data">
+                            <h2>Bootcamp Node.js Web Developer</h2>
+                            <span><a href="https://digitalinnovation.one/" target="_blank" rel="noopener noreferrer">Digital Innovation One Inc.</a></span>
+                            <span>Emitido em dez. 2020 ∙ Nenhuma data de expiração</span>
+                            <span>Nº da credencial 06CCA3C0</span>
+                            <a href="https://certificates.digitalinnovation.one/06CCA3C0" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <p>Aprenda a trabalhar em server side usando a tecnologia Node.JS. Nesse bootcamp você terá o passo a passo para utilizar a ferramenta e desenvolver aplicações web.</p>
+                            <span>Nível: Intermediário ∙ Cursos/Atividades: 26 ∙ Duração: 120 horas</span>
+                        </div>
+                    </div>
+                    {/* Bem-vindo à DIO */}
+                    <div className="courses">
+                        <img src={BCAula1} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Bem-vindo à DIO</h4>
+                            <p>Seja bem-vindo à Digital Innovation One, o maior ecossistema open education em desenvolvimento de software da América Latina. Você vai começar agora uma jornada para criar o seu currículo com portfólio de projetos inovadores e acelerar a sua carreira para conquistar grandes oportunidades.</p>
+                            <span>Nível: Básico ∙ Duração: 1 hora</span>
+                            <span>Nº da credencial 6D91FD7B</span>
+                            <a href="https://certificates.digitalinnovation.one/6D91FD7B" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Lógica de programação essencial */}
+                    <div className="courses">
+                        <img src={BCAula3} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Lógica de programação essencial</h4>
+                            <p>Lógica de programação é a forma como o desenvolvedor entende a comunicação a fim de programar uma função de um programa. Faz uso de algoritmos, que são sequências de passos bem estabelecidos, como por exemplo, uma receita de bolo.</p>
+                            <span>Nível: Básico ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial 009747F0</span>
+                            <a href="https://certificates.digitalinnovation.one/009747F0" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/logica-flowgorithm" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fluxogramas do Flowgorithm"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/logica-portugol" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Códigos Portugol"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Introdução ao Git e ao GitHub */}
+                    <div className="courses">
+                        <img src={BCAula5} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução ao Git e ao GitHub</h4>
+                            <p>Nesse curso vamos aprender um pouco da história do Git e como ele se tornou essencial para otimizar projetos dos desenvolvedores. Também vamos conhecer seus principais comandos, como funciona a plataforma e como ela pode simplificar o seu trabalho.</p>
+                            <span>Nível: Básico ∙ Duração: 5 horas</span>
+                            <span>Nº da credencial 3BC44B9E</span>
+                            <a href="https://certificates.digitalinnovation.one/3BC44B9E" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Criando um repositório para seus projetos inovadores */}
+                    <div className="courses">
+                        <img src={BCAula6} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Criando um repositório para seus projetos inovadores</h4>
+                            <p>Aprenda neste curso a criar desde uma conta no GitHub até o seu primeiro repositório na plataforma para compartilhar código com outros desenvolvedores e entrar no radar de recrutadores.</p>
+                            <span>Nível: Básico ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial 0478AD5A</span>
+                            <a href="https://certificates.digitalinnovation.one/0478AD5A" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* JavaScript ES6 essencial */}
+                    <div className="courses">
+                        <img src={BCAula19} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>JavaScript ES6 essencial</h4>
+                            <p>Nesse curso você vai conhecer a extensão ES6, do JavaScript, que foi criada com o objetivo de resolver problemas antigos da linguagem, facilitar a construção de aplicações, entre outros benefícios.</p>
+                            <span>Nível: Intermediário ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial 40273713</span>
+                            <a href="https://certificates.digitalinnovation.one/40273713" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/javascript-es6-essencial-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/introducao-ao-javascript-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor"/>
+                                </a>
+                                <a href="https://github.com/tc39/proposal-decorators" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Proposal Decorators"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Introdução a Programação com JavaScript */}
+                    <div className="courses">
+                        <img src={HTMLAula7} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução a Programação com JavaScript</h4>
+                            <p>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.</p>
+                            <span>Nível: Básico ∙ Desafios: 3</span>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/visita-na-feira.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Visita na Feira"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/multiplicacao-simples.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Multiplicação Simples"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/folha-de-pagamento.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Folha de Pagamento"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Desmistificando map, filter e reduce */}
+                    <div className="courses">
+                        <img src={NJDAula7} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Desmistificando map, filter e reduce</h4>
+                            <p>Aprenda como e quando utilizar map, filter e reduce em JavaScript.</p>
+                            <span>Nível: Básico ∙ Duração: 1 horas</span>
+                            <span>Nº da credencial A9EBF695</span>
+                            <a href="https://certificates.digitalinnovation.one/A9EBF695" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Desenvolvimento avançado com JavaScript ES6 */}
+                    <div className="courses">
+                        <img src={BCAula20} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Desenvolvimento avançado com JavaScript ES6</h4>
+                            <p>Aprenda a trabalhar com a mais nova atualização da linguagem JavaScript, a ES6, desde seus fundamentos até as funções avançadas e novos conceitos aplicados.</p>
+                            <span>Nível: Avançado ∙ Duração: 5 horas</span>
+                            <span>Nº da credencial 8F3A0FF8</span>
+                            <a href="https://certificates.digitalinnovation.one/8F3A0FF8" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/javascript-es6-avancado-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - NodeJS com Express"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Fundamentos Aritméticos em JavaScript */}
+                    <div className="courses">
+                        <img src={HTMLAula10} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Fundamentos Aritméticos em JavaScript</h4>
+                            <p>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.</p>
+                            <span>Nível: Básico ∙ Desafios: 5</span>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/quantidade-de-numeros-positivos.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Quantidade de Números Positivos"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/exibindo-numeros-pares.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Exibindo Números Pares"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/analise-de-numeros.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Análise de Números"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/contagem-de-cedulas.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Contagem de Cédulas"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/consumo-medio-do-automovel.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Consumo Médio do Automóvel"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Entendendo Promises de uma vez por todas */}
+                    <div className="courses">
+                        <img src={NJDAula10} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Entendendo Promises de uma vez por todas</h4>
+                            <p>Neste projeto prático vamos mergulhar fundo no padrão Promises e entender como funciona todo o fluxo assíncrono de funções em Javascript!</p>
+                            <span>Nível: Intermediário ∙ Duração: 2 horas</span>
+                            <span>Nº da credencial 26E685A9</span>
+                            <a href="https://certificates.digitalinnovation.one/26E685A9" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Como funciona o async/await */}
+                    <div className="courses">
+                        <img src={NJDAula11} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Como funciona o async/await</h4>
+                            <p>As promises são um recurso importante do JavaScript que podem ser aplicadas de diversas formas. Aprenda sobre o que é e como utilizar as keywords async e await para otimizar o desenvolvimento de projetos.</p>
+                            <span>Nível: Intermediário ∙ Duração: 1 horas</span>
+                            <span>Nº da credencial 3E7F133F</span>
+                            <a href="https://certificates.digitalinnovation.one/3E7F133F" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Ordenação e Filtros em JavaScript */}
+                    <div className="courses">
+                        <img src={NJDAula12} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Ordenação e Filtros em JavaScript</h4>
+                            <p>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.</p>
+                            <span>Nível: Intermediário ∙ Desafios: 5</span>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/ordenando-numeros-pares-e-impares.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Ordenando Números Pares e Ímpares"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Ordena%C3%A7%C3%A3o%2C%20filtros%20e%20Desafios/compras-no-supermercado.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Compras no Supermercado"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas/uniformes-de-final-de-ano.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Uniformes de final de ano"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Ordena%C3%A7%C3%A3o%20e%20Filtros%20em%20JavaScript/fila-do-banco.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fila do Banco"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas/gincana-no-acampamento.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Gincana no Acampamento"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Fundamentos de Arquitetura de Sistemas */}
+                    <div className="courses">
+                        <img src={BCAula7} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Fundamentos de Arquitetura de Sistemas</h4>
+                            <p>Aprenda nesse curso sobre como funcionam as arquiteturas de softwares, seus conceitos, aplicações e desenvolvimento de operações.</p>
+                            <span>Nível: Básico ∙ Duração: 6 horas</span>
+                            <span>Nº da credencial 0FA384AC</span>
+                            <a href="https://certificates.digitalinnovation.one/0FA384AC" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Introdução ao Node.js com Express */}
+                    <div className="courses">
+                        <img src={BCAula21} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução ao Node.js com Express</h4>
+                            <p>Nesse curso você vai conhecer um framework de JavaScript, o Express, que foi criado com a finalidade de criar aplicativos web usando o Node.js.</p>
+                            <span>Nível: Básico ∙ Duração: 2 horas</span>
+                            <span>Nº da credencial C77A2991</span>
+                            <a href="https://certificates.digitalinnovation.one/C77A2991" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/node-express" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - NodeJS com Express"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/node-cli" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - CLI"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/node-clima-cli" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - Clima CLI"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/pug-template" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - Pug Template"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/pug-express" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor - Pug com Express"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Introdução a Busca e Substituição em JavaScript */}
+                    <div className="courses">
+                        <img src={NJDAula15} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução a Busca e Substituição em JavaScript</h4>
+                            <p>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.</p>
+                            <span>Nível: Intermediário ∙ Desafios: 5</span>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/ordenacao-de-palavras-por-tamanho.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Ordenação de palavras por tamanho"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Ordena%C3%A7%C3%A3o%2C%20filtros%20e%20Desafios/encontre-a-maior-substring.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Encontre a maior substring"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/validador-de-senhas-com-requisitos.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Validador de senhas com requisitos"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Ordena%C3%A7%C3%A3o%2C%20filtros%20e%20Desafios/pedra-papel-tesoura-lagarto-e-spock.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Pedra, Papel, Tesoura, Lagarto e Spock"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Busca%20e%20Substitui%C3%A7%C3%A3o%20em%20JavaScript/atalhos-para-o-weblogger-brasil.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Atalhos para o Weblogger Brasil"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Arquitetura de Sistemas Avançado */}
+                    <div className="courses">
+                        <img src={BCAula8} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Arquitetura de Sistemas Avançado</h4>
+                            <p>Conheça sobre os conceitos da arquitetura de sistemas, aplicações em nuvem e operações em softwares.</p>
+                            <span>Nível: Intermediário ∙ Duração: 3 horas</span>
+                            <span>Nº da credencial 38A009FE</span>
+                            <a href="https://certificates.digitalinnovation.one/38A009FE" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Arquitetura interna no Node e filas */}
+                    <div className="courses">
+                        <img src={NJDAula17} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Arquitetura interna no Node e filas</h4>
+                            <p>Aprenda como funciona o event loop no Node, como são executados os códigos C++ via v8 do motor criado pela Google, como tudo isso está ligado diretamente ao tempo de resposta na API e o porquê de se utilizar fila.</p>
+                            <span>Nível: Intermediário ∙ Duração: 1 horas</span>
+                            <span>Nº da credencial 54F43A6F</span>
+                            <a href="https://certificates.digitalinnovation.one/54F43A6F" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Tarefas em background utilizando Node.js e Redis */}
+                    <div className="courses">
+                        <img src={NJDAula18} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Tarefas em background utilizando Node.js e Redis</h4>
+                            <p>Nesse Labs você deve desenvolver e entregar um projeto de “Cadastro de usuário e envio de e-mail de confirmação de cadastro como tarefa em background utilizando Node.js” ao qual você praticará e aplicará os conceitos de processamento assíncrono de tarefas utilizando Node.js e Redis. Demonstre toda sua capacidade criativa para transformar a base do projeto apresentada nesta sessão em um desenvolvimento inovador.</p>
+                            <span>Nível: Intermediário ∙ Duração: 6 horas</span>
+                            <span>Nº da credencial 74E5EC51</span>
+                            <a href="https://certificates.digitalinnovation.one/74E5EC51" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/background-nodejs-redis-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Projeto"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Construindo sexy APIs usando arquitetura serverless */}
+                    <div className="courses">
+                        <img src={NJDAula19} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Construindo sexy APIs usando arquitetura serverless</h4>
+                            <p>Nesse desafio você deve desenvolver e entregar um projeto de “APIs para Gestão de Produtos utilizando Node.js” ao qual você praticará e aplicará os conceitos de desenvolvimento de APIs e Arquitetura Serverless com Node.js. Demonstre toda sua capacidade criativa para transformar a base do projeto apresentada nesta sessão em um desenvolvimento inovador.</p>
+                            <span>Nível: Intermediário ∙ Duração: 6 horas</span>
+                            <span>Nº da credencial F02962CC</span>
+                            <a href="https://certificates.digitalinnovation.one/F02962CC" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/serverless-sexy-api-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Projeto"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Solução de Problemas com JavaScript */}
+                    <div className="courses">
+                        <img src={NJDAula20} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Solução de Problemas com JavaScript</h4>
+                            <p>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.</p>
+                            <span>Nível: Avançado ∙ Desafios: 7</span>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/contagem-repetida-de-numeros.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Contagem repetida de números"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/vogais-extraterrestres.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Vogais Extraterrestres"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/melhor-amigo-do-pablo.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Melhor amigo do Pablo"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/entrevista-embaracosa.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Entrevista embaraçosa"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/conjuntos-bons-ou-ruins.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Conjuntos bons ou ruins?"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/produto-e-divisao.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Produto e divisão"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Solu%C3%A7%C3%A3o%20de%20Problemas%20com%20JavaScript/barras-de-ouro.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Barras de ouro"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Introdução ao domain driven design e padrões de arquitetura */}
+                    <div className="courses">
+                        <img src={FCAula8} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução ao domain driven design e padrões de arquitetura</h4>
+                            <p>Nesse curso você aprende os princípios básicos de DDD (Domain Driven Design ou em português desenvolvimento dirigido ao domínio) assim como a sua aplicabilidade e padrões de arquitetura de software.</p>
+                            <span>Nível: Básico ∙ Duração: 2 horas</span>
+                            <span>Nº da credencial D990B46D</span>
+                            <a href="https://certificates.digitalinnovation.one/D990B46D" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Conceitos e melhores práticas com bancos de dados PostgreSQL */}
+                    <div className="courses">
+                        <img src={BCAula16} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Conceitos e melhores práticas com bancos de dados PostgreSQL</h4>
+                            <p>Esse curso ensinará como trabalhar com PostgreSQL, um gerenciador de banco de dados relacional.</p>
+                            <span>Nível: Básico ∙ Duração: 9 horas</span>
+                            <span>Nº da credencial 049D20FC</span>
+                            <a href="https://certificates.digitalinnovation.one/049D20FC" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/digital_innovation_one" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Desenvolvimento back-end com Node.js */}
+                    <div className="courses">
+                        <img src={BCAula22} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Desenvolvimento back-end com Node.js</h4>
+                            <p>Aprenda como programar em back-end utilizando o Node, uma plataforma poderosa de aplicações que conecta o back ao front-end.</p>
+                            <span>Nível: Intermediário ∙ Duração: 5 horas</span>
+                            <span>Nº da credencial A8DB674E</span>
+                            <a href="https://certificates.digitalinnovation.one/A8DB674E" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Resolvendo Algoritmos com JavaScript */}
+                    <div className="courses">
+                        <img src={NJDAula24} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Resolvendo Algoritmos com JavaScript</h4>
+                            <p>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.</p>
+                            <span>Nível: Avançado ∙ Desafios: 5</span>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Resolvendo%20Algoritmos%20com%20JavaScript/coracao-das-cartas.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Coração das cartas"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Desafios%20L%C3%B3gicos/abreviando-posts-do-blog.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Abreviando posts do blog"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Resolvendo%20Algoritmos%20com%20JavaScript/combinacao-de-strings.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Combinação de strings"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Desafios%20L%C3%B3gicos/hash-magico.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Hash Mágico"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Desafios%20L%C3%B3gicos/o-tabuleiro-secreto.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="O tabuleiro secreto"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Projetos ágeis com SCRUM */}
+                    <div className="courses">
+                        <img src={BCAula17} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Projetos ágeis com SCRUM</h4>
+                            <p>SCRUM é um framework utilizado no gerenciamento ágil de projetos de software. Esse curso ensinará os fundamentos e práticas da metodologia.</p>
+                            <span>Nível: Básico ∙ Duração: 2 horas</span>
+                            <span>Nº da credencial 129123A8</span>
+                            <a href="https://certificates.digitalinnovation.one/129123A8" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Construindo um ChatbotFit no Telegram com JavaScript e NodeJS */}
+                    <div className="courses">
+                        <img src={NJDAula26} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Construindo um ChatbotFit no Telegram com JavaScript e NodeJS</h4>
+                            <p>Nesse Labs você deve desenvolver e entregar um projeto de “Chatbot no Telegram com JavaScript e NodeJS” ao qual você praticará e aplicará os conceitos de integração e buscas de vídeos de exercícios físicos no YouTube utilizando uma plataforma de entendimento de linguagem natural chamada DialogFlow. Demonstre toda sua capacidade criativa para transformar a base do projeto apresentada nesta sessão em um desenvolvimento inovador.</p>
+                            <span>Nível: Avançado ∙ Duração: 6 horas</span>
+                            <span>Nº da credencial 62B7B525</span>
+                            <a href="https://certificates.digitalinnovation.one/62B7B525" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/chatbotfit-telegram-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="ChatbotFit"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Bootcamp SPTech Desenvolvimento Back-end */}
+                <div className="container-course">
+                    <div className="bootcamp">
+                        <img src={SPTechBackend} alt="Badge Curso"/>
+                        <div className="bootcamp-data">
+                            <h2>Bootcamp SPTech Desenvolvimento Back-end</h2>
+                            <span><a href="https://digitalinnovation.one/" target="_blank" rel="noopener noreferrer">Digital Innovation One Inc.</a></span>
+                            <span>Emitido em dez. 2020 ∙ Nenhuma data de expiração</span>
+                            <span>Nº da credencial BEE6BE67</span>
+                            <a href="https://certificates.digitalinnovation.one/BEE6BE67" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <p>Aqui você aprenderá a desenvolver plataformas web utilizando a linguagem PHP e seus principais frameworks e bibliotecas disponíveis.</p>
+                            <span>Nível: Intermediário ∙ Cursos/Atividades: 16 ∙ Duração: 73 horas</span>
+                        </div>
+                    </div>
+                    {/* Bem-vindo à DIO */}
+                    <div className="courses">
+                        <img src={BCAula1} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Bem-vindo à DIO</h4>
+                            <p>Seja bem-vindo à Digital Innovation One, o maior ecossistema open education em desenvolvimento de software da América Latina. Você vai começar agora uma jornada para criar o seu currículo com portfólio de projetos inovadores e acelerar a sua carreira para conquistar grandes oportunidades.</p>
+                            <span>Nível: Básico ∙ Duração: 1 hora</span>
+                            <span>Nº da credencial 6D91FD7B</span>
+                            <a href="https://certificates.digitalinnovation.one/6D91FD7B" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Lógica de programação essencial */}
+                    <div className="courses">
+                        <img src={BCAula3} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Lógica de programação essencial</h4>
+                            <p>Lógica de programação é a forma como o desenvolvedor entende a comunicação a fim de programar uma função de um programa. Faz uso de algoritmos, que são sequências de passos bem estabelecidos, como por exemplo, uma receita de bolo.</p>
+                            <span>Nível: Básico ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial 009747F0</span>
+                            <a href="https://certificates.digitalinnovation.one/009747F0" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/logica-flowgorithm" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fluxogramas do Flowgorithm"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/logica-portugol" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Códigos Portugol"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Introdução ao Git e ao GitHub */}
+                    <div className="courses">
+                        <img src={BCAula5} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução ao Git e ao GitHub</h4>
+                            <p>Nesse curso vamos aprender um pouco da história do Git e como ele se tornou essencial para otimizar projetos dos desenvolvedores. Também vamos conhecer seus principais comandos, como funciona a plataforma e como ela pode simplificar o seu trabalho.</p>
+                            <span>Nível: Básico ∙ Duração: 5 horas</span>
+                            <span>Nº da credencial 3BC44B9E</span>
+                            <a href="https://certificates.digitalinnovation.one/3BC44B9E" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Fundamentos de Arquitetura de Sistemas */}
+                    <div className="courses">
+                        <img src={BCAula7} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Fundamentos de Arquitetura de Sistemas</h4>
+                            <p>Aprenda nesse curso sobre como funcionam as arquiteturas de softwares, seus conceitos, aplicações e desenvolvimento de operações.</p>
+                            <span>Nível: Básico ∙ Duração: 6 horas</span>
+                            <span>Nº da credencial 0FA384AC</span>
+                            <a href="https://certificates.digitalinnovation.one/0FA384AC" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Introdução ao domain driven design e padrões de arquitetura */}
+                    <div className="courses">
+                        <img src={FCAula8} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução ao domain driven design e padrões de arquitetura</h4>
+                            <p>Nesse curso você aprende os princípios básicos de DDD (Domain Driven Design ou em português desenvolvimento dirigido ao domínio) assim como a sua aplicabilidade e padrões de arquitetura de software.</p>
+                            <span>Nível: Básico ∙ Duração: 2 horas</span>
+                            <span>Nº da credencial D990B46D</span>
+                            <a href="https://certificates.digitalinnovation.one/D990B46D" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Programação para internet com HTML5 e CSS3 */}
+                    <div className="courses">
+                        <img src={GFAula9} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Programação para internet com HTML5 e CSS3</h4>
+                            <p>Aprenda a construir uma página WEB utilizando estrutura de HTML5 e defina estilos para elementos utilizando CSS3.</p>
+                            <span>Nível: Básico ∙ Duração: 6 horas</span>
+                            <span>Nº da credencial 8E76C58B</span>
+                            <a href="https://certificates.digitalinnovation.one/8E76C58B" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Construindo páginas para internet com Bootstrap */}
+                    <div className="courses">
+                        <img src={GFAula10} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Construindo páginas para internet com Bootstrap</h4>
+                            <p>Aprenda a utilizar o framework Bootstrap e aprofunde mais o seu conhecimento em HTML5 e CSS3.</p>
+                            <span>Nível: Intermediário ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial 25D40B53</span>
+                            <a href="https://certificates.digitalinnovation.one/25D40B53" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Arquitetura de Sistemas Avançado */}
+                    <div className="courses">
+                        <img src={BCAula8} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Arquitetura de Sistemas Avançado</h4>
+                            <p>Conheça sobre os conceitos da arquitetura de sistemas, aplicações em nuvem e operações em softwares.</p>
+                            <span>Nível: Intermediário ∙ Duração: 3 horas</span>
+                            <span>Nº da credencial 38A009FE</span>
+                            <a href="https://certificates.digitalinnovation.one/38A009FE" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Expert Lesson: Arquitetura Hexagonal: mantendo aplicações saudáveis */}
+                    <div className="courses">
+                        <img src={FCAula10} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Expert Lesson: Arquitetura Hexagonal: mantendo aplicações saudáveis</h4>
+                            <p>Aprenda o que é a Arquitetura Hexagonal, por que ela existe e como ela funciona, passando por todo o caminho que um recurso faz no software, desde o seu ponto de entrada até o retorno para o cliente.</p>
+                            <span>Nível: Intermediário ∙ Duração: 3 horas</span>
+                            <span>Nº da credencial 1155874A</span>
+                            <a href="https://certificates.digitalinnovation.one/1155874A" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Projetos ágeis com SCRUM */}
+                    <div className="courses">
+                        <img src={BCAula17} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Projetos ágeis com SCRUM</h4>
+                            <p>SCRUM é um framework utilizado no gerenciamento ágil de projetos de software. Esse curso ensinará os fundamentos e práticas da metodologia.</p>
+                            <span>Nível: Básico ∙ Duração: 2 horas</span>
+                            <span>Nº da credencial 129123A8</span>
+                            <a href="https://certificates.digitalinnovation.one/129123A8" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Introdução ao PHP */}
+                    <div className="courses">
+                        <img src={BEPHPAula13} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução ao PHP</h4>
+                            <p>Conheça a linguagem PHP e seu ecossistema, aprenda a lidar com comandos básicos e iniciar o desenvolvimento com a linguagem.</p>
+                            <span>Nível: Básico ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial BA5301CA</span>
+                            <a href="https://certificates.digitalinnovation.one/BA5301CA" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Formulários com condicionais e sessões com PHP */}
+                    <div className="courses">
+                        <img src={BEPHPAula14} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Formulários com condicionais e sessões com PHP</h4>
+                            <p>Aprenda a criar Formulários com validações, mensagens de erro e boas práticas para otimização de código.</p>
+                            <span>Nível: Intermediário ∙ Duração: 5 horas</span>
+                            <span>Nº da credencial 739D9404</span>
+                            <a href="https://certificates.digitalinnovation.one/739D9404" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Conhecendo funções e validação de dados com PHP */}
+                    <div className="courses">
+                        <img src={BEPHPAula15} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Conhecendo funções e validação de dados com PHP</h4>
+                            <p>Esse curso vai ensinar sobre as funções e validações de comandos e informações no PHP e como aplicá-los no seu trabalho.</p>
+                            <span>Nível: Intermediário ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial 34CB84D6</span>
+                            <a href="https://certificates.digitalinnovation.one/34CB84D6" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Conceitos e melhores práticas com bancos de dados PostgreSQL */}
+                    <div className="courses">
+                        <img src={BCAula16} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Conceitos e melhores práticas com bancos de dados PostgreSQL</h4>
+                            <p>Esse curso ensinará como trabalhar com PostgreSQL, um gerenciador de banco de dados relacional.</p>
+                            <span>Nível: Básico ∙ Duração: 9 horas</span>
+                            <span>Nº da credencial 049D20FC</span>
+                            <a href="https://certificates.digitalinnovation.one/049D20FC" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/digital_innovation_one" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Orientação a objetos, exceções e banco de dados PHP */}
+                    <div className="courses">
+                        <img src={BEPHPAula17} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Orientação a objetos, exceções e banco de dados PHP</h4>
+                            <p>Nesse curso você verá o que é orientações a objetos e como trabalhar com ela. Além de também aprender manipulação de banco de dados com PDO, datas, horas e exceções.</p>
+                            <span>Nível: Intermediário ∙ Duração: 3 horas</span>
+                            <span>Nº da credencial CC601577</span>
+                            <a href="https://certificates.digitalinnovation.one/CC601577" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Desenvolvimento avançado em PHP */}
+                    <div className="courses">
+                        <img src={BEPHPAula18} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Desenvolvimento avançado em PHP</h4>
+                            <p>Aprenda sobre a visão geral da sintaxe e Laravel, framework de PHP que auxilia no desenvolvimento de aplicações de maneira rápida e fácil.</p>
+                            <span>Nível: Avançado ∙ Duração: 10 horas</span>
+                            <span>Nº da credencial 38597896</span>
+                            <a href="https://certificates.digitalinnovation.one/38597896" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Bootcamp HTML Web Developer */}
+                <div className="container-course">
+                    <div className="bootcamp">
+                        <img src={HTMLDeveloper} alt="Badge Curso"/>
+                        <div className="bootcamp-data">
+                            <h2>Bootcamp HTML Web Developer</h2>
+                            <span><a href="https://digitalinnovation.one/" target="_blank" rel="noopener noreferrer">Digital Innovation One Inc.</a></span>
+                            <span>Emitido em nov. 2020 ∙ Nenhuma data de expiração</span>
+                            <span>Nº da credencial EEECFA61</span>
+                            <a href="https://certificates.digitalinnovation.one/EEECFA61" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <p>Aprenda a programar páginas de internet e desenvolver websites utilizando HTML, CSS e JavaScript para iniciar sua trajetória profissional em desenvolvimento web front-end.</p>
+                            <span>Nível: Básico ∙ Cursos/Atividades: 11 ∙ Duração: 27 horas</span>
+                        </div>
+                    </div>
+                    {/* Bem-vindo à DIO */}
+                    <div className="courses">
+                        <img src={BCAula1} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Bem-vindo à DIO</h4>
+                            <p>Seja bem-vindo à Digital Innovation One, o maior ecossistema open education em desenvolvimento de software da América Latina. Você vai começar agora uma jornada para criar o seu currículo com portfólio de projetos inovadores e acelerar a sua carreira para conquistar grandes oportunidades.</p>
+                            <span>Nível: Básico ∙ Duração: 1 hora</span>
+                            <span>Nº da credencial 6D91FD7B</span>
+                            <a href="https://certificates.digitalinnovation.one/6D91FD7B" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Lógica de programação essencial */}
+                    <div className="courses">
+                        <img src={BCAula3} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Lógica de programação essencial</h4>
+                            <p>Lógica de programação é a forma como o desenvolvedor entende a comunicação a fim de programar uma função de um programa. Faz uso de algoritmos, que são sequências de passos bem estabelecidos, como por exemplo, uma receita de bolo.</p>
+                            <span>Nível: Básico ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial 009747F0</span>
+                            <a href="https://certificates.digitalinnovation.one/009747F0" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/logica-flowgorithm" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fluxogramas do Flowgorithm"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/logica-portugol" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Códigos Portugol"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Introdução ao Git e ao GitHub */}
+                    <div className="courses">
+                        <img src={BCAula5} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução ao Git e ao GitHub</h4>
+                            <p>Nesse curso vamos aprender um pouco da história do Git e como ele se tornou essencial para otimizar projetos dos desenvolvedores. Também vamos conhecer seus principais comandos, como funciona a plataforma e como ela pode simplificar o seu trabalho.</p>
+                            <span>Nível: Básico ∙ Duração: 5 horas</span>
+                            <span>Nº da credencial 3BC44B9E</span>
+                            <a href="https://certificates.digitalinnovation.one/3BC44B9E" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Introdução a criação de websites com HTML5 e CSS3 */}
+                    <div className="courses">
+                        <img src={GFAula9} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução a criação de websites com HTML5 e CSS3</h4>
+                            <p>Nesse curso o especialista vai contar um pouco sobre a história do HTML5 e do CSS3, explicar como funciona a estrutura básica dessas tecnologias, sua semântica, principais elementos e comandos.</p>
+                            <span>Nível: Básico ∙ Duração: 6 horas</span>
+                            <span>Nº da credencial 72334946</span>
+                            <a href="https://certificates.digitalinnovation.one/72334946" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Recriando a página inicial do Instagram */}
+                    <div className="courses">
+                        <img src={HTMLAula5} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Recriando a página inicial do Instagram</h4>
+                            <p>Nesse projeto você terá o desafio de reconstruir a página inicial de login do Instagram, no qual será abordado o conceito sobre CSS utilizando Flexbox, uma metodologia de posicionamento de elementos em tela mais utilizada no mercado assim como conceitos de responsividade, além disso a expert disponibiliza todo o material necessário em seu GitHub para que você possa realizar o seu projeto.</p>
+                            <span>Nível: Intermediário ∙ Duração: 3 horas</span>
+                            <span>Nº da credencial 0CBA07C9</span>
+                            <a href="https://certificates.digitalinnovation.one/0CBA07C9" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/clone-home-instagram-html-css" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Clone Instagram"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Programação para internet com JavaScript */}
+                    <div className="courses">
+                        <img src={BCAula18} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Programação para internet com JavaScript</h4>
+                            <p>JavaScript é uma das mais importantes linguagens front-end, e nesse curso você entenderá o porquê disso e como trabalhar com ela.</p>
+                            <span>Nível: Básico ∙ Duração: 2 horas</span>
+                            <span>Nº da credencial B23AE002</span>
+                            <a href="https://certificates.digitalinnovation.one/B23AE002" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/programacao-internet-js-dio" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Fork do Instrutor"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Introdução a Programação com JavaScript */}
+                    <div className="courses">
+                        <img src={HTMLAula7} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Introdução a Programação com JavaScript</h4>
+                            <p>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.</p>
+                            <span>Nível: Básico ∙ Desafios: 3</span>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/visita-na-feira.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Visita na Feira"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/multiplicacao-simples.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Multiplicação Simples"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Introdu%C3%A7%C3%A3o%20a%20Programa%C3%A7%C3%A3o%20com%20JavaScript/folha-de-pagamento.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Folha de Pagamento"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Recriando a Interface do Netflix */}
+                    <div className="courses">
+                        <img src={HTMLAula8} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Recriando a Interface do Netflix</h4>
+                            <p>Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.</p>
+                            <span>Nível: Avançado ∙ Duração: 5 horas</span>
+                            <span>Nº da credencial 54BC448C</span>
+                            <a href="https://certificates.digitalinnovation.one/54BC448C" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/clone-interface-netflix-html-css-js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Netflix"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Construindo páginas para internet com Bootstrap */}
+                    <div className="courses">
+                        <img src={GFAula10} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Construindo páginas para internet com Bootstrap</h4>
+                            <p>Aprenda a utilizar o framework Bootstrap e aprofunde mais o seu conhecimento em HTML5 e CSS3.</p>
+                            <span>Nível: Intermediário ∙ Duração: 4 horas</span>
+                            <span>Nº da credencial 25D40B53</span>
+                            <a href="https://certificates.digitalinnovation.one/25D40B53" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                        </div>
+                    </div>
+                    {/* Fundamentos Aritméticos em JavaScript */}
+                    <div className="courses">
+                        <img src={HTMLAula10} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Fundamentos Aritméticos em JavaScript</h4>
+                            <p>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.</p>
+                            <span>Nível: Básico ∙ Desafios: 5</span>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/quantidade-de-numeros-positivos.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Quantidade de Números Positivos"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/exibindo-numeros-pares.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Exibindo Números Pares"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/analise-de-numeros.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Análise de Números"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/contagem-de-cedulas.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Contagem de Cédulas"/>
+                                </a>
+                                <a href="https://github.com/Pleiterson/desafios-bootcamps-dio/blob/master/JavaScript/Fundamentos%20Aritm%C3%A9ticos%20em%20JavaScript/consumo-medio-do-automovel.js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Consumo Médio do Automóvel"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Recriando o jogo da cobrinha com JavaScript */}
+                    <div className="courses">
+                        <img src={HTMLAula11} alt="Badge Curso"/>
+                        <div className="course-data">
+                            <h4>Recriando o jogo da cobrinha com JavaScript</h4>
+                            <p>Já pensou em criar seu próprio jogo do zero? Aprenda a desenvolver de forma simples o clássico jogo da cobrinha utilizando HTML, CSS e JavaScript.</p>
+                            <span>Nível: Básico ∙ Duração: 2 horas</span>
+                            <span>Nº da credencial 37C0EAC9</span>
+                            <a href="https://certificates.digitalinnovation.one/37C0EAC9" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
+                            <div className="repos">
+                                <a href="https://github.com/Pleiterson/clone-interface-netflix-html-css-js" target="_blank" rel="noopener noreferrer">
+                                    <img src={github} alt="Repositório" title="Jogo da Cobrinha"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 {/* Bootcamp Especialista em Inovação Digital */}
                 <div className="container-course">
                     <div className="bootcamp">
@@ -631,7 +1497,8 @@ export default function Detalhes() {
                             <span>Emitido em jul. 2020 ∙ Nenhuma data de expiração</span>
                             <span>Nº da credencial 94447DF3</span>
                             <a href="https://certificates.digitalinnovation.one/94447DF3" target="_blank" rel="noopener noreferrer">Visualizar credencial</a>
-                            <p>Nesse bootcamp você aprenderá a desenvolver plataformas web utilizando a linguagem PHP, seus principais framework e bibliotecas. Comece agora e se conecte com oportunidades do mercado.</p>
+                            <p>Nesse bootcamp você aprenderá a desenvolver plataformas web utilizando a linguagem PHP, seus principais framework e bibliotecas. 
+                                 agora e se conecte com oportunidades do mercado.</p>
                             <span>Nível: Intermediário ∙ Cursos/Atividades: 18 ∙ Duração: 77 horas</span>
                         </div>
                     </div>

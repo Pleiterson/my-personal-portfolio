@@ -59,6 +59,8 @@ export default function Cursos() {
                     </div>
                 </div>
             </div>
+
+            {/* Bootcamp Node.js Web Developer */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
@@ -189,6 +191,8 @@ export default function Cursos() {
                     </div>
                 </div>
             </div>
+
+            {/* Bootcamp SPTech Desenvolvimento Back-end */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
@@ -202,6 +206,8 @@ export default function Cursos() {
                     </div>
                 </div>
             </div>
+
+            {/* Bootcamp HTML Web Developer */}
             <div className="licensed">
                 <img src={dio} alt="Digital Innovation One Inc."/>
                 <div className="description-licensed">
