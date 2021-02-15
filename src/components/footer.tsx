@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {BiArrowToTop} from 'react-icons/bi';
 import '../styles/components/footer.css';
